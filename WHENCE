@@ -3887,9 +3887,9 @@ File:intel/ibt-1040-4150.ddc
 Version: BT_Solar_HrP2_REL43435
 
 File:intel/ibt-0180-0041.sfi
-Version: BT_Magnetar_GfP2_REL82221
+Version: BT_Magnetar_GfP2_REL90033
 File:intel/ibt-0180-0041.ddc
-Version: BT_Magnetar_GfP2_REL82221
+Version: BT_Magnetar_GfP2_REL90033
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
