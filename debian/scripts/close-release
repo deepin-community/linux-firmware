@@ -3,12 +3,69 @@
 # Close a release
 #
 
+function usage()
+{
+	cat <<EOF
+Usage: $(basename "${0}") [-h] [-s SUFFIX]
+
+Close a release, i.e., create a release commit.
+
+Optional arguments:
+  -h, --help           Show this help text and exit.
+  -s, --suffix SUFFIX  Generate the new package version by appending SUFFIX to
+                       the current version rather than incrementing the upload
+                       number by one.
+EOF
+}
+
+suffix=
+
+while [ ${#} -gt 0 ] ; do
+	case "${1}" in
+		-h|--help)
+			usage
+			exit
+			;;
+		-s|--suffix)
+			shift
+			suffix=${1}
+			;;
+		*)
+			echo "Invalid argument: ${1}" >&2
+			exit 2
+			;;
+	esac
+	shift
+done
+
+# Current upstream commit and version
+. debian/upstream
+
+# Current package release and version
 release=$(dpkg-parsechangelog -SDistribution)
 version=$(dpkg-parsechangelog -SVersion)
 
-# The version and tag of the new release
-new_version="${version%.*}.$((${version##*.} + 1))"
+# New release version and tag
+if [ "${version%-*}" = "${VERSION}" ] ; then
+	if [ -n "${suffix}" ] ; then
+		# Append the provided suffix
+		new_version=${version}${suffix}
+	else
+		# Bump the upload number
+		upload=$(echo "${version}" | grep -o '[0-9]*$')
+		new_version=${version%"${upload}"}$((upload + 1))
+	fi
+else
+	# New upstream version
+	new_version="${VERSION}-0ubuntu1"
+
+	if [ -n "${suffix}" ] ; then
+		# Append the provided suffix
+		new_version=${version}${suffix}
+	fi
+fi
 new_tag="Ubuntu-${new_version}"
+new_tag=${new_tag//\~/_}
 
 # Check if the tag exists already
 if git rev-parse "${new_tag}" >/dev/null 2>&1 ; then
@@ -16,8 +73,8 @@ if git rev-parse "${new_tag}" >/dev/null 2>&1 ; then
 	exit 1
 fi
 
-# Find the previous release commit
-prev_subject="UBUNTU: Ubuntu-${version}"
+# Find the previous release commit (skip dummy versions ending in .0)
+prev_subject="UBUNTU: Ubuntu-${version%.0}"
 prev_commit=$(git log --format='%H %s' | \
 				  grep -m1 -P "^[0-9a-f]{40} ${prev_subject}$" || true)
 prev_commit=${prev_commit%% *}
@@ -31,22 +88,7 @@ fi
 {
 	echo "linux-firmware (${new_version}) ${release}; urgency=medium"
 	echo
-
-	while IFS= read -r line ; do
-		commit=${line%% *}
-		subject=${line#* }
-		# shellcheck disable=SC2001
-		subject=$(echo "${subject}" | sed 's,\s*UBUNTU:\s*,,')
-
-		echo "  * ${subject}"
-
-		# For rebase commits, add the list of changes from the commit message
-		if [ "${subject#Rebase to upstream commit}" != "${subject}" ] ; then
-			git log --format=%b "${commit}" -1 | grep -P '^Rebase|^- ' | \
-				sed -e 's,^,    ,'
-		fi
-	done < <(git log --reverse --format='%h %s' "${prev_commit}"..)
-
+	debian/scripts/generate-changelog "${prev_commit}"..
 	echo
 	echo " -- ${DEBFULLNAME} <${DEBEMAIL}>  $(date -R)"
 	echo
@@ -54,6 +96,6 @@ fi
 } > debian/changelog.new
 mv debian/changelog.new debian/changelog
 
-# Commit and tag the new release
-git commit -s -m "UBUNTU: ${new_tag}" -- debian/changelog
-git tag -s -m  "UBUNTU: ${new_tag}" "${new_tag}"
+# Commit the new release
+git commit -s -m "UBUNTU: Ubuntu-${new_version}" -- debian/changelog
+debian/scripts/tag-release

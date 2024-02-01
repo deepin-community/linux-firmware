@@ -13,25 +13,22 @@ if ! [ -d "${1}" ] ; then
 	exit 1
 fi
 
-echo "Compressing firmware files in ${1} ..."
+echo "Compress firmware files in ${1} ..."
 
-# Compress all files
 while IFS= read -r f ; do
-	[ "${f%.xz}" = "${f}" ] || continue
-	xz -F xz -C crc32 "${f}"
+	if [ "${f%.xz}" = "${f}" ] ; then
+		xz -F xz -C crc32 "${f}"
+	fi
 done < <(find "${1}" -type f)
 
-# Recreate symlinks
-while IFS= read -r l ; do
-	[ "${l%.xz}" = "${l}" ] || continue
-	t=$(readlink "${l}")
-	ln -s "${t}".xz "${l}".xz
-	rm "${l}"
-done < <(find "${1}" -type l)
+echo "Recreate symlinks in ${1} ..."
 
-# Check for dangling symlinks
-if [ "$(find "${1}" -xtype l | wc -l)" -ne 0 ] ; then
-	echo "Error: Dangling symlinks found" >&2
-	find "${1}" -xtype l
-	exit 1
-fi
+while IFS= read -r l ; do
+	if [ "${l%.xz}" = "${l}" ] ; then
+		t=$(readlink "${l}")
+		if ( cd "${l%/*}" && ! [ -d "${t}" ] ) ; then
+			ln -s "${t}".xz "${l}".xz
+			rm "${l}"
+		fi
+	fi
+done < <(find "${1}" -type l)

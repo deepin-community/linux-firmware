@@ -1,87 +1,62 @@
 #!/usr/bin/make -f
-#
-# debian/rules for Ubuntu linux-firmware
-#
-# Use this however you want, just give credit where credit is due.
-#
-# Copyright (c) 2008 Ben Collins <bcollins@ubuntu.com>
-#
-#
 
-export LC_ALL=C
-export SHELL=/bin/bash -e
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
 
-#
-# A list of the directories created by makefiles under fw_source.
-#
-GENERATED_DIRS=ea
-
-binary-arch:
-
-build-arch:
-	$(MAKE) -C fw_source update
-
-build-indep:
-
-dest_dir = $(CURDIR)/debian/linux-firmware
-firm_dir = $(dest_dir)/lib/firmware
-doc_dir = $(dest_dir)/usr/share/doc/linux-firmware
-license_dir = $(doc_dir)/licenses
-nic_firm_dir = $(CURDIR)/debian/nic-firmware/lib/firmware
-scsi_firm_dir = $(CURDIR)/debian/scsi-firmware/lib/firmware
-
-install-indep: build-indep
-	dh_testdir
-	dh_testroot
-	dh_prep -i
-
-	install -d $(firm_dir)
-
-	make install DESTDIR=$(dest_dir)
-	# debian/scripts/compress-firmware $(firm_dir)
-
-ifeq ($(filter noudeb,$(DEB_BUILD_PROFILES)),)
-	for f in $$(cat debian/nic-firmware.lst); do \
-		install -m644 -D $(firm_dir)/$$f $(nic_firm_dir)/$$f; \
-	done
-	# debian/scripts/compress-firmware $(nic_firm_dir)
-
-	for f in $$(cat debian/scsi-firmware.lst); do \
-		install -m644 -D $(firm_dir)/$$f $(scsi_firm_dir)/$$f; \
-	done
-	# debian/scripts/compress-firmware $(scsi_firm_dir)
-endif
-
-	install -d $(doc_dir)
-	cp WHENCE $(doc_dir)/README
-
-	install -d $(license_dir)
-	cp LICEN[CS]E* GPL-[23] $(license_dir)
-
-binary-indep: install-indep
-	dh_testdir
-	dh_testroot
-
-	dh_installchangelogs -i
-	dh_installdocs -i
-	dh_compress -i
-	dh_fixperms -i
-	dh_installdeb -i
-	dh_gencontrol -i
-	dh_md5sums -i
-	dh_builddeb -i
-
-binary: binary-indep binary-arch
-build: build-arch build-indep
+arch ?= $(shell dpkg-architecture -q DEB_HOST_ARCH)
 
 clean:
-	rm -rf $(GENERATED_DIRS)
 	dh_testdir
-	dh_testroot
 	dh_clean
 
-rebase:
-	debian/scripts/rebase-upstream
+	# Run sanity checks if in a git repo
+	if [ -d .git ] && [ -x /usr/bin/python3 ] ; then \
+		$(MAKE) check ; \
+	fi
 
-release:
-	debian/scripts/close-release
+export DH_OPTIONS
+
+install-linux-%: PACKAGE = linux-$*
+install-linux-%: DH_OPTIONS = -p$(PACKAGE)
+install-linux-%:
+	dh_testdir
+	dh_testroot
+	dh_prep
+
+	# Install firmware files
+	debian/scripts/install-firmware $(PACKAGE) $(ARCH)
+
+	# Replace duplicate firmware files with symlinks
+	debian/scripts/symlink-duplicates $(PACKAGE)
+
+	dh_installchangelogs
+	dh_installdocs
+
+	# Some license files are not ASCII encoded and are therefore ignored
+	# by dh_compress so compress them all explicitly
+	gzip -9n debian/$(PACKAGE)/usr/share/doc/$(PACKAGE)/licenses/*
+
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+install-arch: ARCH = $(arch)
+install-arch: install-linux-firmware
+
+install-indep:
+
+install: install-arch install-indep
+
+binary-arch: install-arch
+
+binary-indep: install-indep
+
+binary: binary-arch binary-indep
+
+# There's nothing to build
+build-indep:
+build-arch:
+build:

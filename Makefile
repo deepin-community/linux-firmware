@@ -9,5 +9,13 @@ check:
 	@./check_whence.py
 
 install:
-	mkdir -p $(DESTDIR)$(FIRMWAREDIR)
+	install -d $(DESTDIR)$(FIRMWAREDIR)
 	./copy-firmware.sh $(DESTDIR)$(FIRMWAREDIR)
+
+install-xz:
+	install -d $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh --xz $(DESTDIR)$(FIRMWAREDIR)
+
+install-zst:
+	install -d $(DESTDIR)$(FIRMWAREDIR)
+	./copy-firmware.sh --zstd $(DESTDIR)$(FIRMWAREDIR)
