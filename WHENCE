@@ -17,24 +17,6 @@ Licence: Redistributable. See LICENCE.cypress for details.
 
 --------------------------------------------------------------------------
 
-Driver: ambassador -- Madge Ambassador (Collage PCI 155 Server) ATM NIC.
-
-File: atmsar11.fw
-
-Licence: Allegedly GPLv2+, but no source visible. Marked:
-
-  Madge Ambassador ATM Adapter microcode.
-  Copyright (C) 1995-1999  Madge Networks Ltd.
-
-  This microcode data is placed under the terms of the GNU General
-  Public License. The GPL is contained in /usr/doc/copyright/GPL on a
-  Debian system and in the file COPYING in the Linux kernel source.
-
-  We would prefer you not to distribute modified versions without
-  consultation and not to ask for assembly/other microcode source.
-
---------------------------------------------------------------------------
-
 Driver: snd-korg1212 -- Korg 1212 IO audio device
 
 File: korg/k1212.dsp
@@ -92,20 +74,6 @@ File: qlogic/1280.bin
 File: qlogic/12160.bin
 
 Licence: Redistributable. See LICENCE.qla1280 for details
-
---------------------------------------------------------------------------
-
-Driver: smctr -- SMC ISA/MCA Token Ring adapter
-
-File: tr_smctr.bin
-Version: 6.3C1
-Info: MCT.BIN v6.3C1 03/01/95
-
-Original licence info:
-
- * This firmware is licensed to you strictly for use in conjunction
- * with the use of SMC TokenRing adapters. There is no waranty
- * expressed or implied about its fitness for any purpose.
 
 --------------------------------------------------------------------------
 
@@ -305,16 +273,6 @@ Converted from Intel HEX files, used in our binary representation of ihex.
 
 --------------------------------------------------------------------------
 
-Driver: ip2 -- Computone IntelliPort Plus serial device
-
-File: intelliport2.bin
-
-Licence: Unknown
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
 Driver: cpia2 -- cameras based on Vision's CPiA2
 
 File: cpia2/stv0672_vp4.bin
@@ -437,7 +395,7 @@ Version: 8.07.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
-Available from http://ldriver.qlogic.com/firmware/ 
+Available from http://ldriver.qlogic.com/firmware/
 
 --------------------------------------------------------------------------
 
@@ -578,14 +536,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.26.2.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.26.2.0.bin
+File: cxgb4/t4fw-1.27.3.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.27.3.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.26.2.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.26.2.0.bin
-File: cxgb4/t6fw-1.26.2.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.26.2.0.bin
+File: cxgb4/t5fw-1.27.3.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.27.3.0.bin
+File: cxgb4/t6fw-1.27.3.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.27.3.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 File: cxgb4/configs/t4-config-default.txt
@@ -659,18 +617,6 @@ Found in hex form in kernel source, with the following notice:
  OWN RISK. IN NO EVENT WILL ADAPTEC OR ITS LICENSORS BE LIABLE TO YOU FOR
  DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES
  ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM.
-
---------------------------------------------------------------------------
-
-Driver: i2400m-usb - Intel 2400 Wireless WiMAX Connection over USB
-
-File: i2400m-fw-usb-1.4.sbcf
-File: i2400m-fw-usb-1.5.sbcf
-File: i6050-fw-usb-1.5.sbcf
-
-Licence: Redistributable. See LICENCE.i2400m for details
-
-Also available from http://linuxwimax.org/Download
 
 --------------------------------------------------------------------------
 
@@ -808,20 +754,11 @@ Version: 15.32.2.9
 File: iwlwifi-4965-2.ucode
 Version: 228.61.2.24
 
-File: iwlwifi-5000-1.ucode
-Version: 5.4.A.11 (aka 5.4.1.16)
-
-File: iwlwifi-5000-2.ucode
-Version: 8.24.2.12
-
 File: iwlwifi-5000-5.ucode
 Version: 8.83.5.1
 
 File: iwlwifi-5150-2.ucode
 Version: 8.24.2.2
-
-File: iwlwifi-1000-3.ucode
-Version: 128.50.3.1
 
 File: iwlwifi-1000-5.ucode
 Version: 39.31.5.1
@@ -829,20 +766,11 @@ Version: 39.31.5.1
 File: iwlwifi-6000-4.ucode
 Version: 9.221.4.1
 
-File: iwlwifi-6050-4.ucode
-Version: 9.201.4.1
-
 File: iwlwifi-6050-5.ucode
 Version: 41.28.5.1
 
-File: iwlwifi-6000g2a-5.ucode
-Version: 17.168.5.3
-
 File: iwlwifi-6000g2a-6.ucode
 Version: 18.168.6.1
-
-File: iwlwifi-6000g2b-5.ucode
-Version: 17.168.5.1
 
 File: iwlwifi-6000g2b-6.ucode
 Version: 18.168.6.1
@@ -862,130 +790,20 @@ Version: 18.168.6.1
 File: iwlwifi-2000-6.ucode
 Version: 18.168.6.1
 
-File: iwlwifi-7260-7.ucode
-Version: 22.1.7.0
-
-File: iwlwifi-7260-8.ucode
-Version: 22.24.8.0
-
-File: iwlwifi-7260-9.ucode
-Version: 25.228.9.0
-
-File: iwlwifi-7260-10.ucode
-Version: 23.15.10.0
-
-File: iwlwifi-7260-12.ucode
-Version: 25.17.12.0
-
-File: iwlwifi-7260-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-7260-16.ucode
-Version: 16.242414.0
-
 File: iwlwifi-7260-17.ucode
 Version: 17.bfb58538.0
-
-File: iwlwifi-3160-7.ucode
-Version: 22.1.7.0
-
-File: iwlwifi-3160-8.ucode
-Version: 22.24.8.0
-
-File: iwlwifi-3160-9.ucode
-Version: 25.228.9.0
-
-File: iwlwifi-3160-10.ucode
-Version: 23.15.10.0
-
-File: iwlwifi-3160-12.ucode
-Version: 25.17.12.0
-
-File: iwlwifi-3160-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-3160-16.ucode
-Version: 16.242414.0
 
 File: iwlwifi-3160-17.ucode
 Version: 17.bfb58538.0
 
-File: iwlwifi-7265-8.ucode
-Version: 22.24.8.0
-
-File: iwlwifi-7265-9.ucode
-Version: 25.228.9.0
-
-File: iwlwifi-7265-10.ucode
-Version: 23.15.10.0
-
-File: iwlwifi-7265-12.ucode
-Version: 25.17.12.0
-
-File: iwlwifi-7265-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-7265-16.ucode
-Version: 16.242414.0
-
 File: iwlwifi-7265-17.ucode
 Version: 17.bfb58538.0
-
-Link: iwlwifi-7265D-10.ucode -> iwlwifi-7265-10.ucode
-
-File: iwlwifi-7265D-12.ucode
-Version: 25.17.12.0
-
-File: iwlwifi-7265D-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-7265D-16.ucode
-Version: 16.242414.0
-
-File: iwlwifi-7265D-17.ucode
-Version: 17.352738.0
-
-File: iwlwifi-7265D-21.ucode
-Version: 21.302800.0
-
-File: iwlwifi-7265D-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-7265D-27.ucode
-Version: 27.541033.0
 
 File: iwlwifi-7265D-29.ucode
 Version: 29.f2390aa8.0
 
-File: iwlwifi-3168-21.ucode
-Version: 21.302800.0
-
-File: iwlwifi-3168-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-3168-27.ucode
-Version: 27.541033.0
-
 File: iwlwifi-3168-29.ucode
 Version: 29.0bd893f3.0
-
-File: iwlwifi-8000C-13.ucode
-Version: 25.30.13.0
-
-File: iwlwifi-8000C-16.ucode
-Version: 16.242414.0
-
-File: iwlwifi-8000C-21.ucode
-Version: 21.302800.0
-
-File: iwlwifi-8000C-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-8000C-27.ucode
-Version: 27.541033.0
-
-File: iwlwifi-8000C-31.ucode
-Version: 31.560484.0
 
 File: iwlwifi-8000C-34.ucode
 Version: 34.610288.0
@@ -993,26 +811,11 @@ Version: 34.610288.0
 File: iwlwifi-8000C-36.ucode
 Version: 36.ca7b901d.0
 
-File: iwlwifi-8265-21.ucode
-Version: 21.302800.0
-
-File: iwlwifi-8265-22.ucode
-Version: 22.391740.0
-
-File: iwlwifi-8265-27.ucode
-Version: 27.541033.0
-
-File: iwlwifi-8265-31.ucode
-Version: 31.560484.0
-
 File: iwlwifi-8265-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8265-36.ucode
 Version: 36.ca7b901d.0
-
-File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
-Version: 33.610294.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
@@ -1020,17 +823,8 @@ Version: 34.ba501b11.0
 File: iwlwifi-9000-pu-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
-File: iwlwifi-9000-pu-b0-jf-b0-41.ucode
-Version: 41.fc1a7aea.0
-
-File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
-Version: 43.95eb4e97.0
-
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
-Version: 46.6b541b68.0
-
-File: iwlwifi-9260-th-b0-jf-b0-33.ucode
-Version: 33.610294.0
+Version: 46.ff18e32a.0
 
 File: iwlwifi-9260-th-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
@@ -1038,38 +832,8 @@ Version: 34.ba501b11.0
 File: iwlwifi-9260-th-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
-File: iwlwifi-9260-th-b0-jf-b0-41.ucode
-Version: 41.fc1a7aea.0
-
-File: iwlwifi-9260-th-b0-jf-b0-43.ucode
-Version: 43.95eb4e97.0
-
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
-Version: 46.6b541b68.0
-
-File: iwlwifi-cc-a0-46.ucode
-Version: 46.3cfab8da.0
-
-File: iwlwifi-cc-a0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-Qu-b0-hr-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-Qu-b0-jf-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-Qu-c0-hr-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-Qu-c0-jf-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-QuZ-a0-hr-b0-48.ucode
-Version: 48.4fa0041f.0
-
-File: iwlwifi-QuZ-a0-jf-b0-48.ucode
-Version: 48.4fa0041f.0
+Version: 46.ff18e32a.0
 
 File: iwlwifi-cc-a0-50.ucode
 Version: 50.3e391d3e.0
@@ -1092,48 +856,6 @@ Version: 50.3e391d3e.0
 File: iwlwifi-QuZ-a0-jf-b0-50.ucode
 Version: 50.3e391d3e.0
 
-File: iwlwifi-cc-a0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-Qu-b0-hr-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-Qu-b0-jf-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-Qu-c0-hr-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-Qu-c0-jf-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-QuZ-a0-hr-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-QuZ-a0-jf-b0-53.ucode
-Version: 53.c31ac674.0
-
-File: iwlwifi-cc-a0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-Qu-b0-hr-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-Qu-b0-jf-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-Qu-c0-hr-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-Qu-c0-jf-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-QuZ-a0-hr-b0-55.ucode
-Version: 55.d9698065.0
-
-File: iwlwifi-QuZ-a0-jf-b0-55.ucode
-Version: 55.d9698065.0
-
 File: iwlwifi-cc-a0-59.ucode
 Version: 59.601f3a66.0
 
@@ -1155,70 +877,213 @@ Version: 59.601f3a66.0
 File: iwlwifi-QuZ-a0-jf-b0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-so-a0-gf-a0-64.ucode
-Version: 64.97bbee0a.0
-
 File: iwlwifi-so-a0-gf-a0.pnvm
 
-File: iwlwifi-so-a0-hr-b0-64.ucode
-Version: 64.97bbee0a.0
-
-File: iwlwifi-so-a0-jf-b0-64.ucode
-Version: 64.97bbee0a.0
+File: iwlwifi-so-a0-gf4-a0.pnvm
 
 File: iwlwifi-ty-a0-gf-a0-59.ucode
 Version: 59.601f3a66.0
 
-File: iwlwifi-cc-a0-62.ucode
-Version: 62.49eeb572.0
+File: iwlwifi-cc-a0-66.ucode
+Version: 66.f1c864e0.0
 
-File: iwlwifi-Qu-b0-hr-b0-62.ucode
-Version: 62.49eeb572.0
+File: iwlwifi-Qu-b0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
 
-File: iwlwifi-Qu-b0-jf-b0-62.ucode
-Version: 62.49eeb572.0
+File: iwlwifi-Qu-b0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
 
-File: iwlwifi-Qu-c0-hr-b0-62.ucode
-Version: 62.49eeb572.0
+File: iwlwifi-Qu-c0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
 
-File: iwlwifi-Qu-c0-jf-b0-62.ucode
-Version: 62.49eeb572.0
+File: iwlwifi-Qu-c0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
 
-File: iwlwifi-QuZ-a0-hr-b0-62.ucode
-Version: 62.49eeb572.0
+File: iwlwifi-QuZ-a0-hr-b0-66.ucode
+Version: 66.f1c864e0.0
 
-File: iwlwifi-QuZ-a0-jf-b0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-ty-a0-gf-a0-62.ucode
-Version: 62.49eeb572.0
-
-File: iwlwifi-cc-a0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-Qu-b0-hr-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-Qu-b0-jf-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-Qu-c0-hr-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-Qu-c0-jf-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-QuZ-a0-hr-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-QuZ-a0-jf-b0-63.ucode
-Version: 63.c04f3485.0
-
-File: iwlwifi-ty-a0-gf-a0-63.ucode
-Version: 63.c04f3485.0
+File: iwlwifi-QuZ-a0-jf-b0-66.ucode
+Version: 66.f1c864e0.0
 
 File: iwlwifi-ty-a0-gf-a0-66.ucode
-Version: 66.55c64978.0
+Version: 66.f1c864e0.0
+
+File: iwlwifi-cc-a0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-Qu-b0-hr-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-Qu-b0-jf-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-Qu-c0-hr-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-Qu-c0-jf-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-QuZ-a0-hr-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-QuZ-a0-jf-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-ty-a0-gf-a0-72.ucode
+Version: 72.a764baac.0
+
+File: iwlwifi-so-a0-gf4-a0-72.ucode
+Version: 72.a764baac.0
+
+File: iwlwifi-so-a0-gf-a0-72.ucode
+Version: 72.a764baac.0
+
+File: iwlwifi-so-a0-hr-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-so-a0-jf-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-cc-a0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-Qu-b0-hr-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-Qu-b0-jf-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-Qu-c0-hr-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-Qu-c0-jf-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-QuZ-a0-hr-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-QuZ-a0-jf-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-ty-a0-gf-a0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-so-a0-gf4-a0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-so-a0-gf-a0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-so-a0-hr-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-so-a0-jf-b0-73.ucode
+Version: 73.35c0a2c6.0
+
+File: iwlwifi-cc-a0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-Qu-b0-hr-b0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-Qu-b0-jf-b0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-Qu-c0-hr-b0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-Qu-c0-jf-b0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-QuZ-a0-hr-b0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-QuZ-a0-jf-b0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-ty-a0-gf-a0-74.ucode
+Version: 74.fe17486e.0
+
+File: iwlwifi-so-a0-gf4-a0-74.ucode
+Version: 74.fe17486e.0
+
+File: iwlwifi-so-a0-gf-a0-74.ucode
+Version: 74.fe17486e.0
+
+File: iwlwifi-so-a0-hr-b0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-so-a0-jf-b0-74.ucode
+Version: 74.a5e9588b.0
+
+File: iwlwifi-cc-a0-77.ucode
+Version: 74.206b0184.0
+
+File: iwlwifi-Qu-b0-hr-b0-77.ucode
+Version: 74.206b0184.0
+
+File: iwlwifi-Qu-b0-jf-b0-77.ucode
+Version: 74.206b0184.0
+
+File: iwlwifi-Qu-c0-hr-b0-77.ucode
+Version: 74.206b0184.0
+
+File: iwlwifi-Qu-c0-jf-b0-77.ucode
+Version: 74.206b0184.0
+
+File: iwlwifi-QuZ-a0-hr-b0-77.ucode
+Version: 74.206b0184.0
+
+File: iwlwifi-QuZ-a0-jf-b0-77.ucode
+Version: 74.206b0184.0
+
+File: iwlwifi-ty-a0-gf-a0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-ty-a0-gf-a0-78.ucode
+Version: 75.3bfdc55f.0
+
+File: iwlwifi-ty-a0-gf-a0-79.ucode
+Version: 76.27f1c37b.0
+
+File: iwlwifi-ty-a0-gf-a0-81.ucode
+Version: 78.31fc9ae6.0
+
+File: iwlwifi-so-a0-gf4-a0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-so-a0-gf4-a0-78.ucode
+Version: 75.3bfdc55f.0
+
+File: iwlwifi-so-a0-gf4-a0-79.ucode
+Version: 76.27f1c37b.0
+
+File: iwlwifi-so-a0-gf4-a0-81.ucode
+Version: 78.31fc9ae6.0
+
+File: iwlwifi-so-a0-gf-a0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-so-a0-gf-a0-78.ucode
+Version: 74.3bfdc55f.0
+
+File: iwlwifi-so-a0-gf-a0-79.ucode
+Version: 75.27f1c37b.0
+
+File: iwlwifi-so-a0-gf-a0-81.ucode
+Version: 78.31fc9ae6.0
+
+File: iwlwifi-so-a0-hr-b0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-so-a0-hr-b0-79.ucode
+Version: 75.27f1c37b.0
+
+File: iwlwifi-so-a0-hr-b0-81.ucode
+Version: 78.31fc9ae6.0
+
+File: iwlwifi-so-a0-jf-b0-77.ucode
+Version: 74.f92b5fed.0
 
 File: iwlwifi-ty-a0-gf-a0.pnvm
 
@@ -1236,22 +1101,6 @@ md5sum: 59abc311fce49c5a180b5a8a3917912d
 Link: intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 
 Licence: Redistributable. See LICENSE.ipu3_firmware for details
-
---------------------------------------------------------------------------
-
-Driver: cx231xx - Conexant Cx23100/101/102 USB broadcast A/V decoder
-
-File: v4l-cx231xx-avcore-01.fw
-
-Licence: Redistributable.
-
-  Conexant grants permission to use and redistribute these firmware
-  files for use with Conexant devices, but not as a part of the Linux
-  kernel or in any other form which would require these files themselves
-  to be covered by the terms of the GNU General Public License.
-  These firmware files are distributed in the hope that they will be
-  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
-  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 --------------------------------------------------------------------------
 
@@ -1320,32 +1169,6 @@ File: yam/9600.bin
 
 Licence:
  * (C) F6FBB 1998
-
-Found in hex form in kernel source.
-
---------------------------------------------------------------------------
-
-Driver: 3c359 - 3Com 3C359 Token Link Velocity XL adapter
-
-File: 3com/3C359.bin
-
-Licence:
-/*
- * The firmware this driver downloads into the tokenring card is a
- * separate program and is not GPL'd source code, even though the Linux
- * side driver and the routine that loads this data into the card are.
- *
- * This firmware is licensed to you strictly for use in conjunction
- * with the use of 3Com 3C359 TokenRing adapters. There is no
- * waranty expressed or implied about its fitness for any purpose.
- */
-/* 3c359_microcode.mac: 3Com 3C359 Tokenring microcode.
- *
- * Notes:
- *  - Loaded from xl_init upon adapter initialization.
- *
- * Available from 3Com as part of their standard 3C359 driver.
- */
 
 Found in hex form in kernel source.
 
@@ -1435,39 +1258,19 @@ Found in hex form in kernel source.
 
 --------------------------------------------------------------------------
 
+Driver: cx231xx - Conexant Cx23100/101/102 USB broadcast A/V decoder
+
+File: v4l-cx231xx-avcore-01.fw
+
 Driver: cx23418 - Conexant PCI Broadcast A/V with MPEG encoder
 
 File: v4l-cx23418-apu.fw
 File: v4l-cx23418-cpu.fw
 File: v4l-cx23418-dig.fw
 
-Licence: Redistributable.
-
-  Conexant grants permission to use and redistribute these firmware
-  files for use with Conexant devices, but not as a part of the Linux
-  kernel or in any other form which would require these files themselves
-  to be covered by the terms of the GNU General Public License.
-  These firmware files are distributed in the hope that they will be
-  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
-  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
---------------------------------------------------------------------------
-
 Driver: cx23885 - Conexant PCI Express Broadcast A/V decoder
 
 File: v4l-cx23885-avcore-01.fw
-
-Licence: Redistributable.
-
-  Conexant grants permission to use and redistribute these firmware
-  files for use with Conexant devices, but not as a part of the Linux
-  kernel or in any other form which would require these files themselves
-  to be covered by the terms of the GNU General Public License.
-  These firmware files are distributed in the hope that they will be
-  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
-  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
---------------------------------------------------------------------------
 
 Driver: cx23840 - Conexant sideport Broadcast A/V decoder
 
@@ -1507,60 +1310,18 @@ Found in hex form in kernel source.
 
 Driver: bnx2x: Broadcom Everest
 
-File: bnx2x-e1-4.8.53.0.fw
-File: bnx2x-e1h-4.8.53.0.fw
-File: bnx2x-e1-5.2.7.0.fw
-File: bnx2x-e1h-5.2.7.0.fw
-File: bnx2x-e1-5.2.13.0.fw
-File: bnx2x-e1h-5.2.13.0.fw
-File: bnx2x/bnx2x-e1-6.0.34.0.fw
-File: bnx2x/bnx2x-e1h-6.0.34.0.fw
-File: bnx2x/bnx2x-e2-6.0.34.0.fw
-File: bnx2x/bnx2x-e1-6.2.5.0.fw
-File: bnx2x/bnx2x-e1h-6.2.5.0.fw
-File: bnx2x/bnx2x-e2-6.2.5.0.fw
-File: bnx2x/bnx2x-e1-6.2.9.0.fw
-File: bnx2x/bnx2x-e1h-6.2.9.0.fw
-File: bnx2x/bnx2x-e2-6.2.9.0.fw
-File: bnx2x/bnx2x-e2-7.0.20.0.fw
-File: bnx2x/bnx2x-e1-7.0.20.0.fw
-File: bnx2x/bnx2x-e1h-7.0.20.0.fw
-File: bnx2x/bnx2x-e2-7.0.23.0.fw
-File: bnx2x/bnx2x-e1-7.0.23.0.fw
-File: bnx2x/bnx2x-e1h-7.0.23.0.fw
-File: bnx2x/bnx2x-e2-7.0.29.0.fw
-File: bnx2x/bnx2x-e1-7.0.29.0.fw
-File: bnx2x/bnx2x-e1h-7.0.29.0.fw
-File: bnx2x/bnx2x-e2-7.2.16.0.fw
-File: bnx2x/bnx2x-e1-7.2.16.0.fw
-File: bnx2x/bnx2x-e1h-7.2.16.0.fw
-File: bnx2x/bnx2x-e2-7.2.51.0.fw
-File: bnx2x/bnx2x-e1-7.2.51.0.fw
-File: bnx2x/bnx2x-e1h-7.2.51.0.fw
-File: bnx2x/bnx2x-e1-7.8.2.0.fw
-File: bnx2x/bnx2x-e1h-7.8.2.0.fw
-File: bnx2x/bnx2x-e2-7.8.2.0.fw
-File: bnx2x/bnx2x-e1-7.8.17.0.fw
-File: bnx2x/bnx2x-e1h-7.8.17.0.fw
-File: bnx2x/bnx2x-e2-7.8.17.0.fw
-File: bnx2x/bnx2x-e1-7.8.19.0.fw
-File: bnx2x/bnx2x-e1h-7.8.19.0.fw
-File: bnx2x/bnx2x-e2-7.8.19.0.fw
-File: bnx2x/bnx2x-e1-7.10.51.0.fw
-File: bnx2x/bnx2x-e1h-7.10.51.0.fw
-File: bnx2x/bnx2x-e2-7.10.51.0.fw
-File: bnx2x/bnx2x-e1-7.12.30.0.fw
-File: bnx2x/bnx2x-e1h-7.12.30.0.fw
-File: bnx2x/bnx2x-e2-7.12.30.0.fw
 File: bnx2x/bnx2x-e1-7.13.1.0.fw
-File: bnx2x/bnx2x-e1h-7.13.1.0.fw
-File: bnx2x/bnx2x-e2-7.13.1.0.fw
 File: bnx2x/bnx2x-e1-7.13.11.0.fw
-File: bnx2x/bnx2x-e1h-7.13.11.0.fw
-File: bnx2x/bnx2x-e2-7.13.11.0.fw
 File: bnx2x/bnx2x-e1-7.13.15.0.fw
+File: bnx2x/bnx2x-e1-7.13.21.0.fw
+File: bnx2x/bnx2x-e1h-7.13.1.0.fw
+File: bnx2x/bnx2x-e1h-7.13.11.0.fw
 File: bnx2x/bnx2x-e1h-7.13.15.0.fw
+File: bnx2x/bnx2x-e1h-7.13.21.0.fw
+File: bnx2x/bnx2x-e2-7.13.1.0.fw
+File: bnx2x/bnx2x-e2-7.13.11.0.fw
 File: bnx2x/bnx2x-e2-7.13.15.0.fw
+File: bnx2x/bnx2x-e2-7.13.21.0.fw
 
 
 License:
@@ -1580,29 +1341,10 @@ Found in hex form in kernel source.
 
 Driver: bnx2 - Broadcom NetXtremeII
 
-File: bnx2/bnx2-mips-06-4.6.16.fw
-File: bnx2/bnx2-mips-06-5.0.0.j3.fw
-File: bnx2/bnx2-mips-06-5.0.0.j6.fw
-File: bnx2/bnx2-mips-06-6.0.15.fw
-File: bnx2/bnx2-mips-06-6.2.1.fw
 File: bnx2/bnx2-mips-06-6.2.3.fw
-File: bnx2/bnx2-mips-09-4.6.17.fw
-File: bnx2/bnx2-mips-09-5.0.0.j3.fw
-File: bnx2/bnx2-mips-09-5.0.0.j9.fw
-File: bnx2/bnx2-mips-09-5.0.0.j15.fw
-File: bnx2/bnx2-mips-09-6.0.17.fw
-File: bnx2/bnx2-mips-09-6.2.1.fw
-File: bnx2/bnx2-mips-09-6.2.1a.fw
 File: bnx2/bnx2-mips-09-6.2.1b.fw
-File: bnx2/bnx2-rv2p-06-4.6.16.fw
-File: bnx2/bnx2-rv2p-06-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-06-6.0.15.fw
-File: bnx2/bnx2-rv2p-09-4.6.15.fw
-File: bnx2/bnx2-rv2p-09-5.0.0.j3.fw
-File: bnx2/bnx2-rv2p-09-5.0.0.j10.fw
 File: bnx2/bnx2-rv2p-09-6.0.17.fw
-File: bnx2/bnx2-rv2p-09ax-5.0.0.j3.fw
-File: bnx2/bnx2-rv2p-09ax-5.0.0.j10.fw
 File: bnx2/bnx2-rv2p-09ax-6.0.17.fw
 
 Licence:
@@ -1676,8 +1418,9 @@ Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
 Driver: mt7601u - MediaTek MT7601U Wireless MACs
 
-File: mt7601u.bin
+File: mediatek/mt7601u.bin
 Version: 34
+Link: mt7601u.bin -> mediatek/mt7601u.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
@@ -2597,21 +2340,86 @@ File: amdgpu/aldebaran_mec2.bin
 File: amdgpu/aldebaran_mec.bin
 File: amdgpu/aldebaran_rlc.bin
 File: amdgpu/aldebaran_sdma.bin
+File: amdgpu/aldebaran_sjt_mec2.bin
+File: amdgpu/aldebaran_sjt_mec.bin
 File: amdgpu/aldebaran_smc.bin
 File: amdgpu/aldebaran_sos.bin
 File: amdgpu/aldebaran_ta.bin
 File: amdgpu/aldebaran_vcn.bin
+File: amdgpu/gc_10_3_6_ce.bin
+File: amdgpu/gc_10_3_6_me.bin
+File: amdgpu/gc_10_3_6_mec.bin
+File: amdgpu/gc_10_3_6_mec2.bin
+File: amdgpu/gc_10_3_6_pfp.bin
+File: amdgpu/gc_10_3_6_rlc.bin
 File: amdgpu/gc_10_3_7_ce.bin
 File: amdgpu/gc_10_3_7_me.bin
 File: amdgpu/gc_10_3_7_mec.bin
 File: amdgpu/gc_10_3_7_mec2.bin
 File: amdgpu/gc_10_3_7_pfp.bin
 File: amdgpu/gc_10_3_7_rlc.bin
+File: amdgpu/gc_11_0_0_imu.bin
+File: amdgpu/gc_11_0_0_me.bin
+File: amdgpu/gc_11_0_0_mec.bin
+File: amdgpu/gc_11_0_0_mes1.bin
+File: amdgpu/gc_11_0_0_mes.bin
+File: amdgpu/gc_11_0_0_mes_2.bin
+File: amdgpu/gc_11_0_0_pfp.bin
+File: amdgpu/gc_11_0_0_rlc.bin
+File: amdgpu/gc_11_0_1_imu.bin
+File: amdgpu/gc_11_0_1_me.bin
+File: amdgpu/gc_11_0_1_mec.bin
+File: amdgpu/gc_11_0_1_mes.bin
+File: amdgpu/gc_11_0_1_mes1.bin
+File: amdgpu/gc_11_0_1_mes_2.bin
+File: amdgpu/gc_11_0_1_pfp.bin
+File: amdgpu/gc_11_0_1_rlc.bin
+File: amdgpu/gc_11_0_2_imu.bin
+File: amdgpu/gc_11_0_2_me.bin
+File: amdgpu/gc_11_0_2_mec.bin
+File: amdgpu/gc_11_0_2_mes1.bin
+File: amdgpu/gc_11_0_2_mes.bin
+File: amdgpu/gc_11_0_2_mes_2.bin
+File: amdgpu/gc_11_0_2_pfp.bin
+File: amdgpu/gc_11_0_2_rlc.bin
+File: amdgpu/gc_11_0_4_imu.bin
+File: amdgpu/gc_11_0_4_me.bin
+File: amdgpu/gc_11_0_4_mec.bin
+File: amdgpu/gc_11_0_4_mes.bin
+File: amdgpu/gc_11_0_4_mes1.bin
+File: amdgpu/gc_11_0_4_mes_2.bin
+File: amdgpu/gc_11_0_4_pfp.bin
+File: amdgpu/gc_11_0_4_rlc.bin
+File: amdgpu/dcn_3_1_4_dmcub.bin
+File: amdgpu/dcn_3_1_5_dmcub.bin
 File: amdgpu/dcn_3_1_6_dmcub.bin
+File: amdgpu/dcn_3_2_0_dmcub.bin
+File: amdgpu/dcn_3_2_1_dmcub.bin
+File: amdgpu/psp_13_0_0_sos.bin
+File: amdgpu/psp_13_0_0_ta.bin
+File: amdgpu/psp_13_0_4_ta.bin
+File: amdgpu/psp_13_0_4_toc.bin
+File: amdgpu/psp_13_0_5_asd.bin
+File: amdgpu/psp_13_0_5_ta.bin
+File: amdgpu/psp_13_0_5_toc.bin
+File: amdgpu/psp_13_0_7_sos.bin
+File: amdgpu/psp_13_0_7_ta.bin
 File: amdgpu/psp_13_0_8_asd.bin
 File: amdgpu/psp_13_0_8_ta.bin
 File: amdgpu/psp_13_0_8_toc.bin
+File: amdgpu/psp_13_0_11_ta.bin
+File: amdgpu/psp_13_0_11_toc.bin
+File: amdgpu/sdma_5_2_6.bin
 File: amdgpu/sdma_5_2_7.bin
+File: amdgpu/sdma_6_0_0.bin
+File: amdgpu/sdma_6_0_1.bin
+File: amdgpu/sdma_6_0_2.bin
+File: amdgpu/smu_13_0_0.bin
+File: amdgpu/smu_13_0_7.bin
+File: amdgpu/vcn_3_1_2.bin
+File: amdgpu/vcn_4_0_0.bin
+File: amdgpu/vcn_4_0_2.bin
+File: amdgpu/vcn_4_0_4.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2741,29 +2549,29 @@ Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
 Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle I,II,III
 
 File: ueagle-atm/930-fpga.bin
-File: ueagle-atm/CMVeiWO.bin    
-File: ueagle-atm/CMVepFR10.bin  
-File: ueagle-atm/DSP9p.bin	
+File: ueagle-atm/CMVeiWO.bin
+File: ueagle-atm/CMVepFR10.bin
+File: ueagle-atm/DSP9p.bin
 File: ueagle-atm/eagleIII.fw
-File: ueagle-atm/adi930.fw     
-File: ueagle-atm/CMVep.bin      
-File: ueagle-atm/CMVepFR.bin    
+File: ueagle-atm/adi930.fw
+File: ueagle-atm/CMVep.bin
+File: ueagle-atm/CMVepFR.bin
 File: ueagle-atm/DSPei.bin
-File: ueagle-atm/CMV9i.bin     
-File: ueagle-atm/CMVepES03.bin  
-File: ueagle-atm/CMVepIT.bin    
+File: ueagle-atm/CMV9i.bin
+File: ueagle-atm/CMVepES03.bin
+File: ueagle-atm/CMVepIT.bin
 File: ueagle-atm/DSPep.bin
-File: ueagle-atm/CMV9p.bin     
-File: ueagle-atm/CMVepES.bin    
-File: ueagle-atm/CMVepWO.bin    
+File: ueagle-atm/CMV9p.bin
+File: ueagle-atm/CMVepES.bin
+File: ueagle-atm/CMVepWO.bin
 File: ueagle-atm/eagleI.fw
-File: ueagle-atm/CMVei.bin     
-File: ueagle-atm/CMVepFR04.bin  
-File: ueagle-atm/DSP9i.bin	    
+File: ueagle-atm/CMVei.bin
+File: ueagle-atm/CMVepFR04.bin
+File: ueagle-atm/DSP9i.bin
 File: ueagle-atm/eagleII.fw
 Version: 1.1
 
-Licence: Redistributable. Based on 
+Licence: Redistributable. Based on
          https://mail.gna.org/public/eagleusb-dev/2004-11/msg00172.html
 
 --------------------------------------------------------------------------
@@ -2868,11 +2676,17 @@ Link: brcm/brcmfmac54591-pcie.clm_blob -> ../cypress/cyfmac54591-pcie.clm_blob
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
+File: "brcm/brcmfmac43241b4-sdio.Advantech-MICA-071.txt"
+File: "brcm/brcmfmac43241b4-sdio.Intel Corp.-VALLEYVIEW C0 PLATFORM.txt"
 File: "brcm/brcmfmac4330-sdio.Prowise-PT301.txt"
+File: "brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt"
 File: "brcm/brcmfmac43340-sdio.meegopad-t08.txt"
 File: "brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt"
 File: "brcm/brcmfmac43340-sdio.predia-basic.txt"
+File: "brcm/brcmfmac43362-sdio.WC121.txt"
 File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
+Link: brcm/brcmfmac43362-sdio.kobo,aura.txt -> brcmfmac43362-sdio.WC121.txt
+Link: brcm/brcmfmac43362-sdio.kobo,tolino-shine2hd.txt -> brcmfmac43362-sdio.WC121.txt
 Link: brcm/brcmfmac43362-sdio.lemaker,bananapro.txt -> brcmfmac43362-sdio.cubietech,cubietruck.txt
 File: "brcm/brcmfmac43430a0-sdio.ilife-S806.txt"
 File: "brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt"
@@ -2882,10 +2696,15 @@ Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt -> brcmfmac43430-sdio.AP6
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.friendlyarm,nanopi-r1.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.starfive,visionfive-v1.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-a1.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-r0.txt -> brcmfmac43430-sdio.AP6212.txt
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
 Link: brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt -> brcmfmac43430-sdio.raspberrypi,3-model-b.txt
+Link: brcm/brcmfmac43430-sdio.raspberrypi,model-zero-2-w.txt -> brcmfmac43430-sdio.raspberrypi,3-model-b.txt
 File: "brcm/brcmfmac43455-sdio.acepc-t8.txt"
 File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
 Link: brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
@@ -2894,22 +2713,29 @@ Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ 4\ Model\
 Link: brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ Compute\ Module\ 4.txt -> brcmfmac43455-sdio.raspberrypi,4-model-b.txt
 File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
-File: brcm/brcmfmac4356-sdio.vamrs,rock960.txt
-Link: brcm/brcmfmac4356-sdio.khadas,vim2.txt -> brcmfmac4356-sdio.vamrs,rock960.txt
+File: "brcm/brcmfmac4356-pcie.Intel Corporation-CHERRYVIEW D1 PLATFORM.txt"
+File: "brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt"
+File: brcm/brcmfmac4356-sdio.AP6356S.txt
+Link: brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt -> brcmfmac4356-sdio.AP6356S.txt
+Link: brcm/brcmfmac4356-sdio.khadas,vim2.txt -> brcmfmac4356-sdio.AP6356S.txt
+Link: brcm/brcmfmac4356-sdio.vamrs,rock960.txt -> brcmfmac4356-sdio.AP6356S.txt
+File: brcm/brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,pinenote-v1.1.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,pinenote-v1.2.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,quartz64-a.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.0.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.1.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,soquartz-model-a.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,soquartz-cm4io.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.pine64,soquartz-blade.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 
 Licence: GPLv2. See GPL-2 for details.
 
 --------------------------------------------------------------------------
-
-Driver: tda7706 - FM radio Highly integrated tuner for AM/FM car-radio
-
-File: TDA7706_OM_v2.5.1_boot.txt
-File: TDA7706_OM_v3.0.2_boot.txt
-
-Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
-        Copyright © 2010 STMicroelectronics
-
-------------------------------------------------
 
 Driver: ti-vpe - Texas Instruments V4L2 driver for Video Processing Engine
 
@@ -3150,32 +2976,10 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
-Driver: r8723au - Realtek 802.11n WLAN driver for RTL8723AU
-
-Info: Taken from Realtek driver rtl8723A_WiFi_linux_v4.1.3_6044.20121224
-      Firmware is embedded in the driver as data statements. This info
-      has been extracted into a binary file.
-File: rtlwifi/rtl8723aufw_A.bin
-File: rtlwifi/rtl8723aufw_B.bin
-File: rtlwifi/rtl8723aufw_B_NoBT.bin
-
-Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
-
---------------------------------------------------------------------------
-
 Driver: rtl8188ee - Realtek 802.11n WLAN driver for RTL8188EE
 
 Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_linux_mac80211_0010.0109.2013
 File: rtlwifi/rtl8188efw.bin
-
-Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
-
---------------------------------------------------------------------------
-
-Driver: rtl8188eu - Realtek 802.11n WLAN driver for RTL8188EU
-
-Info: Taken from Realtek version RTL8188EUS_linux_v4.1.4_6773.20130222
-File: rtlwifi/rtl8188eufw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3234,9 +3038,13 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
-Driver: rtw89 - Realtek 802.11ax WLAN driver for RTL8852A
+Driver: rtw89 - Realtek 802.11ax WLAN driver for RTL8851B/RTL8852A/RTL8852B/RTL8852C
 
+File: rtw89/rtw8851b_fw.bin
 File: rtw89/rtw8852a_fw.bin
+File: rtw89/rtw8852b_fw.bin
+File: rtw89/rtw8852b_fw-1.bin
+File: rtw89/rtw8852c_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3287,12 +3095,40 @@ File: rtlwifi/rtl8723bu_wowlan.bin
 File: rtlwifi/rtl8723bu_ap_wowlan.bin
 
 Info: rtl8192eu taken from Realtek driver
-      rtl8192EU_linux_v4.3.1.1_11320.20140505
+      rtl8192EU_WiFi_linux_v5.11.2.1-18-g8e7df912b.20210527_COEX20171113-0047
       Firmware is embedded in the driver as data statements. This info
       has been extracted into a binary file.
 File: rtlwifi/rtl8192eu_nic.bin
+Version: 35.7
 File: rtlwifi/rtl8192eu_wowlan.bin
+Version: 35.7
 File: rtlwifi/rtl8192eu_ap_wowlan.bin
+Version: 18.0
+
+Info: rtl8188fu taken from Realtek driver
+      RTL8188FU_Linux_v4.3.23.6_20964.20170110
+      Firmware was embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8188fufw.bin
+
+File: rtlwifi/rtl8710bufw_SMIC.bin
+Version: 16.0
+File: rtlwifi/rtl8710bufw_UMC.bin
+Version: 16.0
+
+Info: rtl8188eu taken from Realtek driver version
+      v5.2.2.4_25483.20171222.
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8188eufw.bin
+Version: 28.0
+
+Info: rtl8192fu taken from Realtek driver version
+      v5.8.6.2_35538.20191028_COEX20190910-0d02.
+      Firmware is embedded in the driver as data statements. This info
+      has been extracted into a binary file.
+File: rtlwifi/rtl8192fufw.bin
+Version: 6.0
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3486,62 +3322,63 @@ Driver: ath10k - Qualcomm Atheros support for QCA988x family of chips
 File: ath10k/QCA988X/hw2.0/board.bin
 File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
-Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
+File: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
 Version: 10.2.4-1.0-00047
-Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
 File: ath10k/QCA6174/hw2.1/firmware-5.bin
 Version: SW_RM.1.1.1-00157-QCARMSWPZ-1
-Licence: ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
+File: ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw3.0/board.bin
 File: ath10k/QCA6174/hw3.0/board-2.bin
 File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
-Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
+File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: WLAN.RM.4.4.1-00157-QCARMSWPZ-1
-Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
+Version: WLAN.RM.4.4.1-00288-QCARMSWPZ-1
+File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA6174/hw3.0/firmware-sdio-6.bin
-Version: WLAN.RMH.4.4.1-00077
-Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-sdio-6.txt
+Version: WLAN.RMH.4.4.1-00174
+File: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-sdio-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
 File: ath10k/QCA9377/hw1.0/firmware-5.bin
 Version: WLAN.TF.1.0-00002-QCATFSWPZ-5
-Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-sdio-5.bin
 Version: WLAN.TF.1.1.1-00061-QCATFSWPZ-1
-Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-sdio-5.txt
-File: ath10k/QCA99X0/hw2.0/board.bin
+File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-sdio-5.txt
+File: ath10k/QCA99X0/hw2.0/board-2.bin
 File: ath10k/QCA99X0/hw2.0/firmware-5.bin
 Version: 10.4.1.00030-1
-Licence: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA4019/hw1.0/board-2.bin
 File: ath10k/QCA4019/hw1.0/firmware-5.bin
 Version: 10.4-3.6-00140
-Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
 Version: 10.2.4-1.0-00047
-Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
+File: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00131
-Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
+Version: 10.4-3.9.0.2-00157
+File: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00131
-Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
+Version: 10.4-3.9.0.2-00157
+File: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-6.bin
 Version: WLAN.TF.2.1-00021-QCARMSWP-1
-Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
+File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
+File: ath10k/WCN3990/hw1.0/board-2.bin
 File: ath10k/WCN3990/hw1.0/firmware-5.bin
 File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
-Licence: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
+File: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3565,8 +3402,8 @@ File: ath11k/IPQ6018/hw1.0/q6_fw.b07
 File: ath11k/IPQ6018/hw1.0/q6_fw.b08
 File: ath11k/IPQ6018/hw1.0/q6_fw.flist
 File: ath11k/IPQ6018/hw1.0/q6_fw.mdt
-Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
-Licence: ath11k/IPQ6018/hw1.0/Notice.txt
+Version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+File: ath11k/IPQ6018/hw1.0/Notice.txt
 File: ath11k/IPQ8074/hw2.0/board-2.bin
 File: ath11k/IPQ8074/hw2.0/m3_fw.b00
 File: ath11k/IPQ8074/hw2.0/m3_fw.b01
@@ -3583,23 +3420,64 @@ File: ath11k/IPQ8074/hw2.0/q6_fw.b07
 File: ath11k/IPQ8074/hw2.0/q6_fw.b08
 File: ath11k/IPQ8074/hw2.0/q6_fw.flist
 File: ath11k/IPQ8074/hw2.0/q6_fw.mdt
-Version: WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
-Licence: ath11k/IPQ8074/hw2.0/Notice.txt
+Version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+File: ath11k/IPQ8074/hw2.0/Notice.txt
 File: ath11k/QCA6390/hw2.0/board-2.bin
 File: ath11k/QCA6390/hw2.0/amss.bin
 File: ath11k/QCA6390/hw2.0/m3.bin
-Version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
-Licence: ath11k/QCA6390/hw2.0/Notice.txt
-File: ath11k/WCN6855/hw2.0/board-2.bin
+Version: WLAN.HST.1.0.1-05266-QCAHSTSWPLZ_V2_TO_X86-1
+File: ath11k/QCA6390/hw2.0/Notice.txt
 File: ath11k/WCN6855/hw2.0/regdb.bin
+File: ath11k/WCN6855/hw2.0/board-2.bin
 File: ath11k/WCN6855/hw2.0/amss.bin
 File: ath11k/WCN6855/hw2.0/m3.bin
-Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3
+Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.23
 File: ath11k/WCN6855/hw2.0/Notice.txt
-Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
+Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
 Link: ath11k/WCN6855/hw2.1/amss.bin -> ../hw2.0/amss.bin
 Link: ath11k/WCN6855/hw2.1/m3.bin -> ../hw2.0/m3.bin
+File: ath11k/QCN9074/hw1.0/board-2.bin
+File: ath11k/QCN9074/hw1.0/amss.bin
+File: ath11k/QCN9074/hw1.0/m3.bin
+Version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+File: ath11k/QCN9074/hw1.0/Notice.txt
+File: ath11k/WCN6750/hw1.0/board-2.bin
+File: ath11k/WCN6750/hw1.0/wpss.b00
+File: ath11k/WCN6750/hw1.0/wpss.b01
+File: ath11k/WCN6750/hw1.0/wpss.b02
+File: ath11k/WCN6750/hw1.0/wpss.b03
+File: ath11k/WCN6750/hw1.0/wpss.b04
+File: ath11k/WCN6750/hw1.0/wpss.b05
+File: ath11k/WCN6750/hw1.0/wpss.b06
+File: ath11k/WCN6750/hw1.0/wpss.b07
+File: ath11k/WCN6750/hw1.0/wpss.b08
+File: ath11k/WCN6750/hw1.0/wpss.mdt
+Version: WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1
+File: ath11k/WCN6750/hw1.0/Notice.txt
+File: ath11k/IPQ5018/hw1.0/board-2.bin
+File: ath11k/IPQ5018/hw1.0/m3_fw.b00
+File: ath11k/IPQ5018/hw1.0/m3_fw.b01
+File: ath11k/IPQ5018/hw1.0/m3_fw.b02
+File: ath11k/IPQ5018/hw1.0/m3_fw.flist
+File: ath11k/IPQ5018/hw1.0/m3_fw.mdt
+File: ath11k/IPQ5018/hw1.0/q6_fw.b00
+File: ath11k/IPQ5018/hw1.0/q6_fw.b01
+File: ath11k/IPQ5018/hw1.0/q6_fw.b02
+File: ath11k/IPQ5018/hw1.0/q6_fw.b03
+File: ath11k/IPQ5018/hw1.0/q6_fw.b04
+File: ath11k/IPQ5018/hw1.0/q6_fw.b05
+File: ath11k/IPQ5018/hw1.0/q6_fw.b07
+File: ath11k/IPQ5018/hw1.0/q6_fw.b08
+File: ath11k/IPQ5018/hw1.0/q6_fw.b09
+File: ath11k/IPQ5018/hw1.0/q6_fw.b10
+File: ath11k/IPQ5018/hw1.0/q6_fw.b11
+File: ath11k/IPQ5018/hw1.0/q6_fw.b13
+File: ath11k/IPQ5018/hw1.0/q6_fw.b14
+File: ath11k/IPQ5018/hw1.0/q6_fw.flist
+File: ath11k/IPQ5018/hw1.0/q6_fw.mdt
+Version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
+File: ath11k/IPQ5018/hw1.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3767,13 +3645,13 @@ Version: BT_WindStormPeak_REL1299
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL1299
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20182
+Version: BT_JeffersonPeak_B0_B0_REL20332
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20182
+Version: BT_JeffersonPeak_B0_B0_REL20332
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20182
+Version: BT_JeffersonPeak_B0_B0_REL20332
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20182
+Version: BT_JeffersonPeak_B0_B0_REL20332
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3799,97 +3677,99 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL43126
+Version: BT_CyclonePeak_A0_REL53392
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL43126
+Version: BT_CyclonePeak_A0_REL53392
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL43126
+Version: BT_CyclonePeak_A0_REL53392
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL43126
+Version: BT_CyclonePeak_A0_REL53392
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL43126
+Version: BT_CyclonePeak_A0_REL53392
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL43126
+Version: BT_CyclonePeak_A0_REL53392
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL43126
+Version: BT_Quasar_REL53392
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL43126
+Version: BT_Quasar_REL53392
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL43126
+Version: BT_Quasar_REL53392
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL43126
+Version: BT_Quasar_REL53392
+File:intel/ibt-19-0-3.sfi
+Version: BT_Quasar_REL53263
+File:intel/ibt-19-0-3.ddc
+Version: BT_Quasar_REL53263
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL43126
+Version: BT_HarrisonPeak_REL53392
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL43435
+Version: BT_TyphoonPeak_REL62562
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL43435
+Version: BT_TyphoonPeak_REL62562
 File:intel/ibt-0040-0041.sfi
-Version: BT_GarfieldPeak_REL43435
+Version: BT_Solar_GfP2_REL62562
 File:intel/ibt-0040-0041.ddc
-Version: BT_GarfieldPeak_REL43435
+Version: BT_Solar_GfP2_REL62562
 File:intel/ibt-1040-0041.sfi
-Version: BT_Solar_GfP2_REL43435
+Version: BT_SolarF_GfP2_REL62562
 File:intel/ibt-1040-0041.ddc
-Version: BT_Solar_GfP2_REL43435
+Version: BT_SolarF_GfP2_REL62562
 
 File:intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL43435
+Version: BT_Solar_JfP1_REL59564
 File:intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL43435
+Version: BT_Solar_JfP1_REL59564
 File:intel/ibt-1040-1020.sfi
-Version: BT_Solar_JfP1_REL43435
+Version: BT_SolarF_JfP1_REL59564
 File:intel/ibt-1040-1020.ddc
-Version: BT_Solar_JfP1_REL43435
+Version: BT_SolarF_JfP1_REL59564
 
 File:intel/ibt-0040-2120.sfi
-Version: BT_Solar_JfP2_REL43435
+Version: BT_Solar_JfP2_REL52159
 File:intel/ibt-0040-2120.ddc
-Version: BT_Solar_JfP2_REL43435
+Version: BT_Solar_JfP2_REL52159
 File:intel/ibt-1040-2120.sfi
-Version: BT_Solar_JfP2_REL43435
+Version: BT_SolarF_JfP2_REL59564
 File:intel/ibt-1040-2120.ddc
-Version: BT_Solar_JfP2_REL43435
+Version: BT_SolarF_JfP2_REL59564
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL43435
+Version: BT_Solar_JnP2_REL62562
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL43435
+Version: BT_Solar_JnP2_REL62562
 File:intel/ibt-1040-4150.sfi
-Version: BT_Solar_HrP2_REL43435
+Version: BT_SolarF_JnP2_REL62562
 File:intel/ibt-1040-4150.ddc
-Version: BT_Solar_HrP2_REL43435
+Version: BT_SolarF_JnP2_REL62562
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
-File: rtlbt/rtl8852bs_config
-File: rtlbt/rtl8852bs_fw
 File: rtl_bt/rtl8192ee_fw.bin
 File: rtl_bt/rtl8192eu_fw.bin
 File: rtl_bt/rtl8723a_fw.bin
@@ -3911,16 +3791,20 @@ File: rtl_bt/rtl8723d_fw.bin
 File: rtl_bt/rtl8723d_config.bin
 File: rtl_bt/rtl8821c_fw.bin
 File: rtl_bt/rtl8821c_config.bin
+File: rtl_bt/rtl8821cs_fw.bin
+File: rtl_bt/rtl8821cs_config.bin
 File: rtl_bt/rtl8822cu_fw.bin
 File: rtl_bt/rtl8822cu_config.bin
 File: rtl_bt/rtl8822cs_fw.bin
 File: rtl_bt/rtl8822cs_config.bin
 File: rtl_bt/rtl8852au_fw.bin
 File: rtl_bt/rtl8852au_config.bin
-File: rtl8852au_config
-File: rtl8852au_fw
-File: rtl8852bu_config
-File: rtl8852bu_fw
+File: rtl_bt/rtl8852bu_fw.bin
+File: rtl_bt/rtl8852bu_config.bin
+File: rtl_bt/rtl8852cu_fw.bin
+File: rtl_bt/rtl8852cu_config.bin
+File: rtl_bt/rtl8851bu_fw.bin
+File: rtl_bt/rtl8851bu_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3928,41 +3812,17 @@ Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
 Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
 updated on April 14, 2017.
-Files rtl_bt/rtl8821c_* and rtl_bt/rtl8723d_* came directly from Realtek.
-File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
-updated on February 24, 2019
-File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
-updated on October 23, 2019
-File rtl_bt/rtl8822cu_config.bin came directly from Realtek.
 
 Found in vendor driver, 20200806_LINUX_BT_DRIVER_RTL8761B_COEX_v0202.zip
-File rtl_bt/rtl8761b_fw.bin
 File rtl_bt/rtl8761b_config.bin
-File rtl_bt/rtl8761bu_fw.bin
 File rtl_bt/rtl8761bu_config.bin
+
 --------------------------------------------------------------------------
 
 Driver: btmtk_usb - Bluetooth USB driver
 
-File: mt7650.bin
-File: bt.cfg
-File: BT_RAM_CODE_MT7961_1_1_hdr.bin
-File: BT_RAM_CODE_MT7961_1_1_sec_hdr.bin
-File: BT_RAM_CODE_MT7961_1_2_hdr.bin
-File: BT_RAM_CODE_MT7961_1a_1_hdr.bin
-File: BT_RAM_CODE_MT7961_1a_1_sec_hdr.bin
-File: BT_RAM_CODE_MT7961_1a_2_hdr.bin
-File: EEPROM_MT7961_1.bin
-File: EEPROM_MT7961_1a.bin
-File: TxPwrLimit_MT79x1.dat
-File: wifi.cfg
-File: WIFI_MT7961_patch_mcu_1_1_hdr.bin
-File: WIFI_MT7961_patch_mcu_1_2_hdr.bin
-File: WIFI_MT7961_patch_mcu_1a_1_hdr.bin
-File: WIFI_MT7961_patch_mcu_1a_2_hdr.bin
-File: WIFI_RAM_CODE_MT7961_1.bin
-File: WIFI_RAM_CODE_MT7961_1a.bin
-File: woble_setting_7961.bin
+File: mediatek/mt7650.bin
+Link: mt7650.bin -> mediatek/mt7650.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
@@ -4017,13 +3877,36 @@ Licence: Redistributable. See LICENCE.go7007 for details
 Driver: ccp - Platform Security Processor (PSP) device
 
 File: amd/amd_sev_fam17h_model0xh.sbin
-Version: 2021-9-10
+Version: 2022-2-25
 File: amd/amd_sev_fam17h_model3xh.sbin
-Version: 2021-9-10
+Version: 2022-2-25
 File: amd/amd_sev_fam19h_model0xh.sbin
-Version: 2021-9-10
+Version: 2022-2-25
 
 License: Redistributable. See LICENSE.amd-sev for details
+
+--------------------------------------------------------------------------
+
+Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
+
+File: amd-ucode/microcode_amd.bin
+Raw: amd-ucode/microcode_amd.bin
+Version: 2013-07-10
+File: amd-ucode/microcode_amd_fam15h.bin
+Raw: amd-ucode/microcode_amd_fam15h.bin
+Version: 2018-05-24
+File: amd-ucode/microcode_amd_fam16h.bin
+Raw: amd-ucode/microcode_amd_fam16h.bin
+Version: 2014-10-28
+File: amd-ucode/microcode_amd_fam17h.bin
+Raw: amd-ucode/microcode_amd_fam17h.bin
+Version: 2023-04-13
+File: amd-ucode/microcode_amd_fam19h.bin
+Raw: amd-ucode/microcode_amd_fam19h.bin
+Version: 2023-01-31
+File: amd-ucode/README
+
+License: Redistributable. See LICENSE.amd-ucode for details
 
 --------------------------------------------------------------------------
 
@@ -4068,7 +3951,7 @@ License:
 
   This SDD ("Static Dynamic Data") file is licensed strictly for use with
   the Sagrad WiFi modules (such as the SG901-1091/1098) that utilize the
-  cw1200 driver. There is no warranty expressed or implied about its 
+  cw1200 driver. There is no warranty expressed or implied about its
   fitness for any purpose.
 
   Permission is hereby granted for the distribution of this SDD file as
@@ -4081,12 +3964,6 @@ License:
 
 Driver: BFA/BNA - QLogic BR-series Adapter FC/FCOE drivers
 
-File: cbfw-3.2.1.1.bin
-File: ctfw-3.2.1.1.bin
-File: ct2fw-3.2.1.1.bin
-File: cbfw-3.2.3.0.bin
-File: ctfw-3.2.3.0.bin
-File: ct2fw-3.2.3.0.bin
 File: cbfw-3.2.5.1.bin
 File: ctfw-3.2.5.1.bin
 File: ct2fw-3.2.5.1.bin
@@ -4120,6 +3997,8 @@ File: qat_c3xxx_mmp.bin
 File: qat_c62x.bin
 File: qat_c62x_mmp.bin
 Link: qat_mmp.bin -> qat_895xcc_mmp.bin
+File: qat_4xxx.bin
+File: qat_4xxx_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
 
@@ -4191,12 +4070,32 @@ Licence: Redistributable. See LICENCE.it913x for details
 
 --------------------------------------------------------------------------
 
-Driver: snd_soc_sst_acpi
+Driver: snd_soc_catpt -- Intel AudioDSP driver for HSW/BDW platforms
 
-File: intel/IntcSST2.bin
-Version: 8.4.1.77
+File: intel/catpt/bdw/dsp_basefw.bin
+Version: 44b81c4d5397a63108356f58f036953d9b288c4e
+Link: intel/IntcSST2.bin -> catpt/bdw/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.IntcSST2 for details
+
+--------------------------------------------------------------------------
+
+Driver: snd_soc_avs -- Intel AudioDSP driver for cAVS platforms
+
+File: intel/avs/skl/dsp_basefw.bin
+File: intel/avs/skl/dsp_mod_7CAD0808-AB10-CD23-EF45-12AB34CD56EF.bin
+Version: 9.21.00.4899
+Link: intel/dsp_fw_release.bin -> avs/skl/dsp_basefw.bin
+Link: intel/dsp_fw_kbl.bin -> avs/skl/dsp_basefw.bin
+File: intel/avs/apl/dsp_basefw.bin
+Version: 9.22.01.4908
+Link: intel/dsp_fw_bxtn.bin -> avs/apl/dsp_basefw.bin
+Link: intel/dsp_fw_glk.bin -> avs/apl/dsp_basefw.bin
+File: intel/avs/cnl/dsp_basefw.bin
+Version: 10.23.00.8551
+Link: intel/dsp_fw_cnl.bin -> avs/cnl/dsp_basefw.bin
+
+License: Redistributable. See LICENCE.adsp_sst for details
 
 --------------------------------------------------------------------------
 
@@ -4224,7 +4123,6 @@ File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
 File: intel/dsp_fw_release_v3402.bin
 Version: 9.21.00.3402_161
-Link: intel/dsp_fw_release.bin -> dsp_fw_release_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4232,7 +4130,6 @@ File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
 File: intel/dsp_fw_bxtn_v3366.bin
 Version: 9.22.01.3366_157
-Link: intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v3366.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4250,7 +4147,6 @@ File: intel/dsp_fw_kbl_v3420.bin
 Version: 9.21.00.3420_163
 File: intel/dsp_fw_kbl_v3402.bin
 Version: 9.21.00.3402_161
-Link: intel/dsp_fw_kbl.bin -> dsp_fw_kbl_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4262,15 +4158,33 @@ File: intel/dsp_fw_glk_v2768.bin
 Version: 9.22.01.2768
 File: intel/dsp_fw_glk_v3366.bin
 Version: 9.22.01.3366_157
-Link: intel/dsp_fw_glk.bin -> dsp_fw_glk_v3366.bin
 
 File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
 File: intel/dsp_fw_cnl_v1858.bin
 Version: 10.23.00.1858
-Link: intel/dsp_fw_cnl.bin -> dsp_fw_cnl_v1858.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
+
+--------------------------------------------------------------------------
+
+Driver: smsmdtv - Siano MDTV Core module
+
+File: cmmb_vega_12mhz.inp
+File: cmmb_venice_12mhz.inp
+File: dvb_nova_12mhz.inp
+File: dvb_nova_12mhz_b0.inp
+File: isdbt_nova_12mhz.inp
+File: isdbt_nova_12mhz_b0.inp
+File: isdbt_rio.inp
+File: sms1xxx-hcw-55xxx-dvbt-02.fw
+File: sms1xxx-hcw-55xxx-isdbt-02.fw
+File: sms1xxx-nova-a-dvbt-01.fw
+File: sms1xxx-nova-b-dvbt-01.fw
+File: sms1xxx-stellar-dvbt-01.fw
+File: tdmb_nova_12mhz.inp
+
+Licence: Redistributable. See LICENCE.siano for details
 
 --------------------------------------------------------------------------
 
@@ -4352,7 +4266,19 @@ File: qca/nvm_usb_00130200_0104.bin
 File: qca/nvm_usb_00130200_0105.bin
 File: qca/nvm_usb_00130200_0106.bin
 File: qca/nvm_usb_00130200_0107.bin
+File: qca/nvm_usb_00130200_0109.bin
 File: qca/nvm_usb_00130200_0110.bin
+File: qca/rampatch_usb_00130201.bin
+File: qca/nvm_usb_00130201.bin
+File: qca/nvm_usb_00130201_010a.bin
+File: qca/nvm_usb_00130201_010b.bin
+File: qca/nvm_usb_00130201_0303.bin
+File: qca/nvm_usb_00130201_gf.bin
+File: qca/nvm_usb_00130201_gf_010a.bin
+File: qca/nvm_usb_00130201_gf_010b.bin
+File: qca/nvm_usb_00130201_gf_0303.bin
+File: qca/rampatch_usb_00190200.bin
+File: qca/nvm_usb_00190200.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -4371,6 +4297,21 @@ Driver: qca - Qualcomm Atheros Bluetooth support for WCN6750 chips
 File: qca/msbtfw11.mbn
 File: qca/msbtfw11.tlv
 File: qca/msnv11.bin
+File: qca/msnv11.b0a
+File: qca/msnv11.b09
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+Driver: qca - Qualcomm Atheros Bluetooth support for QCA2066 chips
+
+File: qca/hpbtfw21.tlv
+File: qca/hpnv21.bin
+File: qca/hpnv21g.bin
+File: qca/hpnv21.301
+File: qca/hpnv21.302
+File: qca/hpnv21g.301
+File: qca/hpnv21g.302
+
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -4379,9 +4320,6 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: liquidio -- Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
-Version: v1.7.2
-
-File: liquidio/lio_23xx_vsw.bin
 Version: v1.7.2
 
 File: liquidio/lio_210nv_nic.bin
@@ -4456,6 +4394,9 @@ Version: GuC API/APB ver 62.0.0 for Skylake
 File: i915/skl_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Skylake
 
+File: i915/skl_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Skylake
+
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
@@ -4498,6 +4439,9 @@ Version: GuC API/APB ver 62.0.0 for Broxton
 File: i915/bxt_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Broxton
 
+File: i915/bxt_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Broxton
+
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
 
@@ -4512,6 +4456,9 @@ Version: GuC API/APB ver 62.0.0 for Comet Lake
 
 File: i915/cml_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Comet Lake
+
+File: i915/cml_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Comet Lake
 
 File: i915/kbl_guc_ver9_39.bin
 Version: Guc API/APB ver 9 release 39 for Kabylake
@@ -4531,6 +4478,9 @@ Version: GuC API/APB ver 62.0.0 for Kabylake
 File: i915/kbl_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Kabylake
 
+File: i915/kbl_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Kabylake
+
 File: i915/glk_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Geminilake
 
@@ -4545,6 +4495,9 @@ Version: GuC API/APB ver 62.0.0 for Geminilake
 
 File: i915/glk_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Geminilake
+
+File: i915/glk_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Geminilake
 
 File: i915/glk_huc_ver03_01_2893.bin
 Version: Huc API/APB ver 3 release 1 for Geminilake
@@ -4585,6 +4538,9 @@ Version: GuC API/APB ver 62.0.0 for Icelake
 File: i915/icl_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Icelake
 
+File: i915/icl_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Icelake
+
 File: i915/icl_huc_ver8_4_3238.bin
 Version: Huc API/APB ver 8 release 4 for Icelake
 
@@ -4615,6 +4571,9 @@ Version: GuC API/APB ver 62.0.0 for Elkhartlake
 File: i915/ehl_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Elkhartlake
 
+File: i915/ehl_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Elkhartlake
+
 File: i915/ehl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Elkhartlake
 
@@ -4630,6 +4589,12 @@ Version: GuC API/APB ver 62.0.0 for Tigerlake
 File: i915/tgl_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Tigerlake
 
+File: i915/tgl_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Tigerlake
+
+File: i915/tgl_guc_70.bin
+Version: GuC API/APB ver 70.5.1 for Tigerlake
+
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
 
@@ -4640,6 +4605,9 @@ File: i915/tgl_huc_7.5.0.bin
 Version: Huc API/APB ver 7 release 5 for Tigerlake
 
 File: i915/tgl_huc_7.9.3.bin
+Version: HuC API/APB ver 7.9.3 for Tigerlake
+
+File: i915/tgl_huc.bin
 Version: HuC API/APB ver 7.9.3 for Tigerlake
 
 File: i915/rkl_dmc_ver2_02.bin
@@ -4660,10 +4628,19 @@ Version: GuC API/APB ver 62.0.0 for DG1
 File: i915/dg1_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for DG1
 
+File: i915/dg1_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for DG1
+
+File: i915/dg1_guc_70.bin
+Version: GuC API/APB ver 70.5.1 for DG1
+
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
 
 File: i915/dg1_huc_7.9.3.bin
+Version: HuC API/APB ver 7.9.3 for DG1
+
+File: i915/dg1_huc.bin
 Version: HuC API/APB ver 7.9.3 for DG1
 
 File: i915/adls_dmc_ver2_01.bin
@@ -4684,11 +4661,53 @@ Version: DMC API/APB ver 2 release 14 for Alderlake P
 File: i915/adlp_dmc_ver2_16.bin
 Version: DMC API/APB ver 2 release 16 for Alderlake P
 
+File: i915/adlp_dmc.bin
+Version: DMC API/APB ver 2 release 19 for Alderlake P
+
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
 
 File: i915/adlp_guc_69.0.3.bin
 Version: GuC API/APB ver 69.0.3 for Alderlake P
+
+File: i915/adlp_guc_70.1.1.bin
+Version: GuC API/APB ver 70.1.1 for Alderlake P
+
+File: i915/adlp_guc_70.bin
+Version: GuC API/APB ver 70.5.1 for Alderlake P
+
+File: i915/dg2_guc_70.1.2.bin
+Version: GuC API/APB ver 70.1.2 for DG2
+
+File: i915/dg2_guc_70.4.1.bin
+Version: GuC API/APB ver 70.4.1 for DG2
+
+File: i915/dg2_guc_70.bin
+Version: GuC API/APB ver 70.5.1 for DG2
+
+File: i915/dg2_huc_gsc.bin
+Version: HuC API/APB ver 7.10.3 for DG2
+
+File: i915/dg2_dmc_ver2_06.bin
+Version: DMC API/APB ver 2 release 6 for DG2
+
+File: i915/dg2_dmc_ver2_07.bin
+Version: DMC API/APB ver 2 release 7 for DG2
+
+File: i915/dg2_dmc_ver2_08.bin
+Version: DMC API/APB ver 2 release 8 for DG2
+
+File: i915/mtl_dmc_ver2_10.bin
+Version: DMC API/APB ver 2 release 10 for Meteorlake
+
+File: i915/mtl_dmc.bin
+Version: DMC API/APB ver 2 release 12 for Meteorlake
+
+File: i915/mtl_guc_70.bin
+Version: GuC API/APB ver 70.6.6 for Meteorlake
+
+File: i915/mtl_huc_gsc.bin
+Version: HuC API/APB ver 8.5.0 for Meteorlake
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -5037,6 +5056,71 @@ Link: nvidia/tu117/nvdec/scrubber.bin -> ../../tu116/nvdec/scrubber.bin
 Link: nvidia/tu117/sec2/desc.bin -> ../../tu116/sec2/desc.bin
 Link: nvidia/tu117/sec2/image.bin -> ../../tu116/sec2/image.bin
 Link: nvidia/tu117/sec2/sig.bin -> ../../tu116/sec2/sig.bin
+File: nvidia/ga102/acr/ucode_ahesasc.bin
+File: nvidia/ga102/acr/ucode_asb.bin
+File: nvidia/ga102/acr/ucode_unload.bin
+File: nvidia/ga102/gr/fecs_bl.bin
+File: nvidia/ga102/gr/fecs_sig.bin
+File: nvidia/ga102/gr/gpccs_bl.bin
+File: nvidia/ga102/gr/gpccs_sig.bin
+File: nvidia/ga102/gr/NET_img.bin
+File: nvidia/ga102/nvdec/scrubber.bin
+File: nvidia/ga102/sec2/desc.bin
+File: nvidia/ga102/sec2/hs_bl_sig.bin
+File: nvidia/ga102/sec2/image.bin
+File: nvidia/ga102/sec2/sig.bin
+Link: nvidia/ga103/acr/ucode_ahesasc.bin -> ../../ga102/acr/ucode_ahesasc.bin
+Link: nvidia/ga103/acr/ucode_asb.bin -> ../../ga102/acr/ucode_asb.bin
+Link: nvidia/ga103/acr/ucode_unload.bin -> ../../ga102/acr/ucode_unload.bin
+File: nvidia/ga103/gr/fecs_bl.bin
+File: nvidia/ga103/gr/fecs_sig.bin
+File: nvidia/ga103/gr/gpccs_bl.bin
+File: nvidia/ga103/gr/gpccs_sig.bin
+File: nvidia/ga103/gr/NET_img.bin
+Link: nvidia/ga103/nvdec/scrubber.bin -> ../../ga102/nvdec/scrubber.bin
+Link: nvidia/ga103/sec2/desc.bin -> ../../ga102/sec2/desc.bin
+Link: nvidia/ga103/sec2/hs_bl_sig.bin -> ../../ga102/sec2/hs_bl_sig.bin
+Link: nvidia/ga103/sec2/image.bin -> ../../ga102/sec2/image.bin
+Link: nvidia/ga103/sec2/sig.bin -> ../../ga102/sec2/sig.bin
+Link: nvidia/ga104/acr/ucode_ahesasc.bin -> ../../ga102/acr/ucode_ahesasc.bin
+Link: nvidia/ga104/acr/ucode_asb.bin -> ../../ga102/acr/ucode_asb.bin
+Link: nvidia/ga104/acr/ucode_unload.bin -> ../../ga102/acr/ucode_unload.bin
+File: nvidia/ga104/gr/fecs_bl.bin
+File: nvidia/ga104/gr/fecs_sig.bin
+File: nvidia/ga104/gr/gpccs_bl.bin
+File: nvidia/ga104/gr/gpccs_sig.bin
+File: nvidia/ga104/gr/NET_img.bin
+Link: nvidia/ga104/nvdec/scrubber.bin -> ../../ga102/nvdec/scrubber.bin
+Link: nvidia/ga104/sec2/desc.bin -> ../../ga102/sec2/desc.bin
+Link: nvidia/ga104/sec2/hs_bl_sig.bin -> ../../ga102/sec2/hs_bl_sig.bin
+Link: nvidia/ga104/sec2/image.bin -> ../../ga102/sec2/image.bin
+Link: nvidia/ga104/sec2/sig.bin -> ../../ga102/sec2/sig.bin
+Link: nvidia/ga106/acr/ucode_ahesasc.bin -> ../../ga102/acr/ucode_ahesasc.bin
+Link: nvidia/ga106/acr/ucode_asb.bin -> ../../ga102/acr/ucode_asb.bin
+Link: nvidia/ga106/acr/ucode_unload.bin -> ../../ga102/acr/ucode_unload.bin
+File: nvidia/ga106/gr/fecs_bl.bin
+File: nvidia/ga106/gr/fecs_sig.bin
+File: nvidia/ga106/gr/gpccs_bl.bin
+File: nvidia/ga106/gr/gpccs_sig.bin
+File: nvidia/ga106/gr/NET_img.bin
+Link: nvidia/ga106/nvdec/scrubber.bin -> ../../ga102/nvdec/scrubber.bin
+Link: nvidia/ga106/sec2/desc.bin -> ../../ga102/sec2/desc.bin
+Link: nvidia/ga106/sec2/hs_bl_sig.bin -> ../../ga102/sec2/hs_bl_sig.bin
+Link: nvidia/ga106/sec2/image.bin -> ../../ga102/sec2/image.bin
+Link: nvidia/ga106/sec2/sig.bin -> ../../ga102/sec2/sig.bin
+Link: nvidia/ga107/acr/ucode_ahesasc.bin -> ../../ga102/acr/ucode_ahesasc.bin
+Link: nvidia/ga107/acr/ucode_asb.bin -> ../../ga102/acr/ucode_asb.bin
+Link: nvidia/ga107/acr/ucode_unload.bin -> ../../ga102/acr/ucode_unload.bin
+File: nvidia/ga107/gr/fecs_bl.bin
+File: nvidia/ga107/gr/fecs_sig.bin
+File: nvidia/ga107/gr/gpccs_bl.bin
+File: nvidia/ga107/gr/gpccs_sig.bin
+File: nvidia/ga107/gr/NET_img.bin
+Link: nvidia/ga107/nvdec/scrubber.bin -> ../../ga102/nvdec/scrubber.bin
+Link: nvidia/ga107/sec2/desc.bin -> ../../ga102/sec2/desc.bin
+Link: nvidia/ga107/sec2/hs_bl_sig.bin -> ../../ga102/sec2/hs_bl_sig.bin
+Link: nvidia/ga107/sec2/image.bin -> ../../ga102/sec2/image.bin
+Link: nvidia/ga107/sec2/sig.bin -> ../../ga102/sec2/sig.bin
 
 File: nvidia/tu10x/typec/ccg_primary.cyacd
 File: nvidia/tu10x/typec/ccg_secondary.cyacd
@@ -5053,7 +5137,7 @@ File: atmel/wilc1000_ap_fw.bin
 File: atmel/wilc1000_p2p_fw.bin
 File: atmel/wilc1000_wifi_firmware.bin
 File: atmel/wilc1000_wifi_firmware-1.bin
-Version: 15.4
+Version: 16.0
 
 License: Redistributable. See LICENSE.atmel for details
 
@@ -5094,42 +5178,29 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 
 --------------------------------------------------------------------------
 
-Driver: mtk-vpu - Mediatek VPU video processing unit driver
+Driver: mtk-vpu - MediaTek VPU video processing unit driver
 
 File: mediatek/mt8173/vpu_d.bin
 File: mediatek/mt8173/vpu_p.bin
 Link: vpu_d.bin -> mediatek/mt8173/vpu_d.bin
 Link: vpu_p.bin -> mediatek/mt8173/vpu_p.bin
 
-Licence: Redistributable.
-
-MediaTek Inc. grants permission to use and redistribute aforementioned firmware
-files for the use with devices containing MediaTek chipsets, but not as part of
-the Linux kernel or in any other form which would require these files themselves
-to be covered by the terms of the GNU General Public License or the GNU Lesser
-General Public License.
-
-These firmware files are distributed in the hope that they will be useful, but
-are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
-OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mtk_scp - Mediatek SCP System Control Processing Driver
+Driver: mtk_scp - MediaTek SCP System Control Processing Driver
 
 File: mediatek/mt8183/scp.img
+Version: v2.0.13324
+File: mediatek/mt8186/scp.img
+Version: v0.0.9
+File: mediatek/mt8192/scp.img
+Version: v2.0.20536
+File: mediatek/mt8195/scp.img
+Version: v2.0.11966
 
-Licence: Redistributable.
-
-MediaTek Inc. grants permission to use and redistribute aforementioned firmware
-files for the use with devices containing MediaTek chipsets, but not as part of
-the Linux kernel or in any other form which would require these files themselves
-to be covered by the terms of the GNU General Public License or the GNU Lesser
-General Public License.
-
-These firmware files are distributed in the hope that they will be useful, but
-are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
-OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
@@ -5139,8 +5210,9 @@ File: mediatek/mt7622pr2h.bin
 Version: 20180621204904
 File: mediatek/mt7668pr2h.bin
 Version: 20180517181834
-File: mediatek/mt7663pr2h.bin
-Version: 7663e2ccn04-2006030247
+# Note: explicitly commented out, since it's duplicated further down
+# File: mediatek/mt7663pr2h.bin
+# Version: 7663e2ccn04-2006030247
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5169,11 +5241,13 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
 
-File: mt7662.bin
+File: mediatek/mt7662.bin
 Version: 1.9
+Link: mt7662.bin -> mediatek/mt7662.bin
 
-File: mt7662_rom_patch.bin
+File: mediatek/mt7662_rom_patch.bin
 Version: 0.0.2_P69
+Link: mt7662_rom_patch.bin -> mediatek/mt7662_rom_patch.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
@@ -5207,7 +5281,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7622 - MediaTek MT7622 Wireless MACs
 
 File: mediatek/mt7622_n9.bin
-Version: 20200131
+Version: 20200630
 File: mediatek/mt7622_rom_patch.bin
 Version: 20190114
 
@@ -5231,14 +5305,59 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7915e - MediaTek MT7915e Wireless MACs
+Driver: mt7915e - MediaTek Wireless MACs for MT7915/MT7916/MT7986/MT7981
 
 File: mediatek/mt7915_wm.bin
-Version: 20201105
+Version: 20220929104145
 File: mediatek/mt7915_wa.bin
-Version: 20201105
+Version: 20220929104205
 File: mediatek/mt7915_rom_patch.bin
-Version: 20201105
+Version: 20220929104113a
+File: mediatek/mt7915_eeprom.bin
+Version: 20200821
+File: mediatek/mt7915_eeprom_dbdc.bin
+Version: 20200821
+
+File: mediatek/mt7916_wm.bin
+Version: 20230202145005
+File: mediatek/mt7916_wa.bin
+Version: 20230202143332
+File: mediatek/mt7916_rom_patch.bin
+Version: 20230202144915a
+File: mediatek/mt7916_eeprom.bin
+Version: 20211130
+
+File: mediatek/mt7986_wm.bin
+Version: 20221012174725
+File: mediatek/mt7986_wm_mt7975.bin
+Version: 20221012174805
+File: mediatek/mt7986_wa.bin
+Version: 20221012174937
+File: mediatek/mt7986_rom_patch.bin
+Version: 20221012174648a
+File: mediatek/mt7986_rom_patch_mt7975.bin
+Version: 20221012174743a
+File: mediatek/mt7986_wo_0.bin
+Version: 20221012175005
+File: mediatek/mt7986_wo_1.bin
+Version: 20221012175032
+File: mediatek/mt7986_eeprom_mt7976.bin
+Version: 20211105
+File: mediatek/mt7986_eeprom_mt7976_dbdc.bin
+Version: 20220223
+File: mediatek/mt7986_eeprom_mt7976_dual.bin
+Version: 20211115
+File: mediatek/mt7986_eeprom_mt7975_dual.bin
+Version: 20220208
+
+File: mediatek/mt7981_wm.bin
+Version: 20221208201806
+File: mediatek/mt7981_wa.bin
+Version: 20221208202048
+File: mediatek/mt7981_rom_patch.bin
+Version: 20221208201745a
+File: mediatek/mt7981_wo.bin
+Version: 20221208202138
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5247,9 +5366,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20211014150838a
+Version: 20230526130917a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20211014150922
+Version: 20230526130958
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5258,7 +5377,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20210223142901
+Version: 20230526131214
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5267,9 +5386,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20210727184234a
+Version: 20230530123154a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20210727184325
+Version: 20230530123236
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5278,7 +5397,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20210901204456
+Version: 20230530123531
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5389,77 +5508,34 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
 Driver: venus - Qualcomm Venus video codec accelerator
 
-File: qcom/venus-1.8/venus.mdt
-File: qcom/venus-1.8/venus.b00
-File: qcom/venus-1.8/venus.b01
-File: qcom/venus-1.8/venus.b02
-File: qcom/venus-1.8/venus.b03
-File: qcom/venus-1.8/venus.b04
+File: qcom/venus-1.8/venus.mbn
+Link: qcom/venus-1.8/venus.mdt -> venus.mbn
 
 Version: 1.8-00109
 
-File: qcom/venus-4.2/venus.mdt
-File: qcom/venus-4.2/venus.b00
-File: qcom/venus-4.2/venus.b01
-File: qcom/venus-4.2/venus.b02
-File: qcom/venus-4.2/venus.b03
-File: qcom/venus-4.2/venus.b04
+File: qcom/venus-4.2/venus.mbn
+Link: qcom/venus-4.2/venus.mdt -> venus.mbn
 
 Version: 4.2
 
-File: qcom/venus-5.2/venus.mdt
-File: qcom/venus-5.2/venus.b00
-File: qcom/venus-5.2/venus.b01
-File: qcom/venus-5.2/venus.b02
-File: qcom/venus-5.2/venus.b03
-File: qcom/venus-5.2/venus.b04
 File: qcom/venus-5.2/venus.mbn
+Link: qcom/venus-5.2/venus.mdt -> venus.mbn
 
 Version: 5.2-00023
 
-File: qcom/venus-5.4/venus.mdt
-File: qcom/venus-5.4/venus.b00
-File: qcom/venus-5.4/venus.b01
-File: qcom/venus-5.4/venus.b02
-File: qcom/venus-5.4/venus.b03
-File: qcom/venus-5.4/venus.b04
 File: qcom/venus-5.4/venus.mbn
+Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
-Version: 5.4-00038
+Version: 5.4-00053
 
-File: qcom/vpu-1.0/venus.mdt
-File: qcom/vpu-1.0/venus.b00
-File: qcom/vpu-1.0/venus.b01
-File: qcom/vpu-1.0/venus.b02
-File: qcom/vpu-1.0/venus.b03
-File: qcom/vpu-1.0/venus.b04
-File: qcom/vpu-1.0/venus.b05
-File: qcom/vpu-1.0/venus.b06
-File: qcom/vpu-1.0/venus.b07
-File: qcom/vpu-1.0/venus.b08
-File: qcom/vpu-1.0/venus.b09
-File: qcom/vpu-1.0/venus.b10
-File: qcom/vpu-1.0/venus.b19
 File: qcom/vpu-1.0/venus.mbn
+Link: qcom/vpu-1.0/venus.mdt -> venus.mbn
 
 Version: VIDEO.VPU.1.0-00087-PROD-1
 
-File: qcom/vpu-2.0/venus.mdt
-File: qcom/vpu-2.0/venus.b00
-File: qcom/vpu-2.0/venus.b01
-File: qcom/vpu-2.0/venus.b02
-File: qcom/vpu-2.0/venus.b03
-File: qcom/vpu-2.0/venus.b04
-File: qcom/vpu-2.0/venus.b05
-File: qcom/vpu-2.0/venus.b06
-File: qcom/vpu-2.0/venus.b07
-File: qcom/vpu-2.0/venus.b08
-File: qcom/vpu-2.0/venus.b09
-File: qcom/vpu-2.0/venus.b10
-File: qcom/vpu-2.0/venus.b19
 File: qcom/vpu-2.0/venus.mbn
 
-Version: VIDEO.VPU.2.0-00038-PROD-1
+Version: VIDEO.VPU.2.0-00049-PROD-1
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5485,13 +5561,15 @@ File: qcom/a300_pfp.fw
 Link: a300_pfp.fw -> qcom/a300_pfp.fw
 File: qcom/a300_pm4.fw
 Link: a300_pm4.fw -> qcom/a300_pm4.fw
+File: qcom/a330_pfp.fw
+File: qcom/a330_pm4.fw
+File: qcom/a420_pfp.fw
+File: qcom/a420_pm4.fw
 File: qcom/a530_pfp.fw
 File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
-File: qcom/a530_zap.b00
-File: qcom/a530_zap.b01
-File: qcom/a530_zap.b02
-File: qcom/a530_zap.mdt
+File: qcom/apq8096/a530_zap.mbn
+Link: qcom/a530_zap.mdt -> apq8096/a530_zap.mbn
 File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
 File: qcom/sdm845/a630_zap.mbn
@@ -5500,6 +5578,9 @@ File: qcom/a650_sqe.fw
 File: qcom/sm8250/a650_zap.mbn
 File: qcom/a660_gmu.bin
 File: qcom/a660_sqe.fw
+File: qcom/leia_pfp_470.fw
+File: qcom/leia_pm4_470.fw
+File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -5508,8 +5589,31 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 
 --------------------------------------------------------------------------
 
+Driver: adreno - Qualcomm Adreno GPU firmware
+
+File: qcom/yamato_pfp.fw
+File: qcom/yamato_pm4.fw
+
+Licence: Redistributable, BSD-3-Clause licence, See LICENSE.qcom_yamato for details
+
+Binary files generated from header files in EfikaMX kernel sources. A prefix of
+four zero bytes was prepended to make them work with the DRM MSM driver. See
+https://github.com/genesi/linux-legacy/tree/master/drivers/mxc/amd-gpu
+
+--------------------------------------------------------------------------
+
 Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
 
+File: qcom/apq8016/mba.mbn
+File: qcom/apq8016/modem.mbn
+File: qcom/apq8016/wcnss.mbn
+File: qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin
+File: qcom/apq8096/adsp.mbn
+File: qcom/apq8096/adspr.jsn
+File: qcom/apq8096/adspua.jsn
+File: qcom/apq8096/mba.mbn
+File: qcom/apq8096/modem.mbn
+File: qcom/apq8096/modemr.jsn
 File: qcom/sdm845/adsp.mbn
 File: qcom/sdm845/adspr.jsn
 File: qcom/sdm845/adspua.jsn
@@ -5520,11 +5624,20 @@ File: qcom/sm8250/adspr.jsn
 File: qcom/sm8250/adspua.jsn
 File: qcom/sm8250/cdsp.mbn
 File: qcom/sm8250/cdspr.jsn
+File: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
+File: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
+File: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
+File: qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
+File: qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn
+File: qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn
+File: qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn
+Link: qcom/LENOVO/21BX -> ../sc8280xp/LENOVO/21BX
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
-http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+http://releases.linaro.org/96boards/dragonboard410c/qualcomm/firmware/linux-board-support-package-r1036.1.zip
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
 http://releases.linaro.org/96boards/rb5/qualcomm/firmware/RB5_firmware_20210331-v4.zip
 
 adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
@@ -5538,13 +5651,14 @@ https://github.com/andersson/pil-squasher
 Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 
 File: qcom/sdm845/mba.mbn
-File: qcom/sdm845/modem.mbn
+File: qcom/sdm845/modem_nm.mbn
 File: qcom/sdm845/modemuw.jsn
+Link: qcom/sdm845/modem.mbn -> modem_nm.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
-http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20221121000000-v5.zip
 
 modem.mbn has been converted from 28-modem/modem.* using
 https://github.com/andersson/pil-squasher
@@ -5595,6 +5709,28 @@ File: mellanox/mlxsw_spectrum3-30.2008.2946.mfa2
 File: mellanox/mlxsw_spectrum-13.2008.3326.mfa2
 File: mellanox/mlxsw_spectrum2-29.2008.3326.mfa2
 File: mellanox/mlxsw_spectrum3-30.2008.3326.mfa2
+File: mellanox/mlxsw_spectrum-13.2010.1006.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.1006.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.1006.mfa2
+File: mellanox/lc_ini_bundle_2010_1006.bin
+File: mellanox/mlxsw_spectrum-13.2010.1232.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.1232.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.1232.mfa2
+File: mellanox/mlxsw_spectrum-13.2010.1406.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.1406.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.1406.mfa2
+File: mellanox/mlxsw_spectrum-13.2010.1502.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.1502.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.1502.mfa2
+File: mellanox/lc_ini_bundle_2010_1502.bin
+File: mellanox/mlxsw_spectrum-13.2010.3020.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.3020.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.3020.mfa2
+File: mellanox/lc_ini_bundle_2010_3020.bin
+File: mellanox/mlxsw_spectrum-13.2010.3146.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.3146.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.3146.mfa2
+File: mellanox/lc_ini_bundle_2010_3146.bin
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -5652,6 +5788,9 @@ File: dpaa2/mc/mc_10.16.2_lx2160a.itb
 File: dpaa2/mc/mc_10.18.0_ls1088a.itb
 File: dpaa2/mc/mc_10.18.0_ls2088a.itb
 File: dpaa2/mc/mc_10.18.0_lx2160a.itb
+File: dpaa2/mc/mc_10.28.1_ls1088a.itb
+File: dpaa2/mc/mc_10.28.1_ls2088a.itb
+File: dpaa2/mc/mc_10.28.1_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
 
@@ -5690,12 +5829,13 @@ Licence: Redistributable. See LICENSE.amlogic_vdec for details.
 
 Driver: ice - Intel(R) Ethernet Connection E800 Series
 
-File: intel/ice/ddp/ice-1.3.26.0.pkg
-Link: intel/ice/ddp/ice.pkg -> ice-1.3.26.0.pkg
+File: intel/ice/ddp/ice-1.3.30.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.30.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
-File: intel/ice/ddp-comms/ice_comms-1.3.20.0.pkg
+File: intel/ice/ddp-comms/ice_comms-1.3.40.0.pkg
+File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.10.0.pkg
 
 License: Redistributable. See LICENSE.ice_enhanced for details
 
@@ -5720,6 +5860,9 @@ Driver: prestera - Marvell driver for Prestera family ASIC devices
 
 File: mrvl/prestera/mvsw_prestera_fw-v2.0.img
 File: mrvl/prestera/mvsw_prestera_fw-v3.0.img
+File: mrvl/prestera/mvsw_prestera_fw-v4.0.img
+File: mrvl/prestera/mvsw_prestera_fw-v4.1.img
+File: mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img
 
 Licence: Redistributable. See LICENCE.Marvell for details.
 
@@ -5735,8 +5878,449 @@ License: Redistributable. See LICENSE.Lontium for details.
 
 Driver: wfx - Silicon Labs Wi-Fi Transceiver
 
-File: silabs/wfm_wf200_C0.sec
-Version: 3.12.1
+File: wfx/wfm_wf200_C0.sec
+Version: 3.14
 
-Licence: Redistributable. See silabs/LICENCE.wf200 for details.
-Originates from https://github.com/SiliconLabs/wfx-firmware
+File: wfx/brd4001a.pds
+File: wfx/brd8022a.pds
+File: wfx/brd8023a.pds
+
+Licence: Redistributable. See wfx/LICENCE.wf200 for details.
+
+The firmware itself originates from https://github.com/SiliconLabs/wfx-firmware
+
+The *.pds files come from https://github.com/SiliconLabs/wfx-pds
+
+They have been processed with the tool "pds_compress" available on
+https://github.com/SiliconLabs/wfx-linux-tools
+
+--------------------------------------------------------------------------
+
+Driver: wave5 - Chips&Media, Inc. video codec driver
+
+File: cnm/wave521c_k3_codec_fw.bin
+
+Licence: Redistributable. See LICENCE.cnm for details.
+
+---------------------------------------------------------------------------
+
+Driver: rvu_cptpf - Marvell CPT driver
+
+File: mrvl/cpt01/ae.out
+File: mrvl/cpt01/se.out
+File: mrvl/cpt01/ie.out
+File: mrvl/cpt02/ae.out
+File: mrvl/cpt02/se.out
+File: mrvl/cpt02/ie.out
+File: mrvl/cpt03/ae.out
+File: mrvl/cpt03/se.out
+File: mrvl/cpt03/ie.out
+File: mrvl/cpt04/ae.out
+File: mrvl/cpt04/se.out
+File: mrvl/cpt04/ie.out
+Version: v1.21
+
+Licence: Redistributable. See LICENCE.Marvell for details.
+
+---------------------------------------------------------------------------
+
+Driver: amphion - Amphion VPU(Video Processing Unit) Codec IP driver
+
+File: amphion/vpu/vpu_fw_imx8_dec.bin
+Version: 1.8.8
+File: amphion/vpu/vpu_fw_imx8_enc.bin
+Version: 1.3.4
+
+Licence: Redistributable. See LICENSE.amphion_vpu for details
+
+---------------------------------------------------------------------------
+
+Driver: cs35l41_hda - CS35l41 ALSA HDA audio driver
+
+File: cirrus/cs35l41-dsp1-spk-prot.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot.bin
+File: cirrus/cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8971.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8971.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8972.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8972.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8973.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8973.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8974.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8974.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8975.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8975.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c896e.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c896e.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c89c3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c89c3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8981.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8981.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c898e.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c898e.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c898f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c898f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8991.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8991.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8992.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8992.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8994.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8994.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8995.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8995.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c89c6.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c89c6.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-103c8971.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8971.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8972.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8972.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8973.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8974.bin -> cs35l41-dsp1-spk-prot-103c8972.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8974.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8975-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8975-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8975-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8975-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c896e-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c896e-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c896e-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c896e-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c898e.bin -> cs35l41-dsp1-spk-prot-103c8971.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c898e.bin -> cs35l41-dsp1-spk-cali-103c8971.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c898f.bin -> cs35l41-dsp1-spk-prot-103c8971.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c898f.bin -> cs35l41-dsp1-spk-cali-103c8971.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8991.bin -> cs35l41-dsp1-spk-prot-103c8972.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8991.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8992.bin -> cs35l41-dsp1-spk-prot-103c8972.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8992.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8994.bin -> cs35l41-dsp1-spk-prot-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8994.bin -> cs35l41-dsp1-spk-cali-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8995.bin -> cs35l41-dsp1-spk-prot-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8995.bin -> cs35l41-dsp1-spk-cali-103c8973.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c89c6-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c89c6-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c89c6-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c89c6-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c89c3-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c89c3-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c89c3-r1.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c89c3-r1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c89c3-l0.bin -> cs35l41-dsp1-spk-prot-103c89c3-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c89c3-l0.bin -> cs35l41-dsp1-spk-cali-103c89c3-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c89c3-l1.bin -> cs35l41-dsp1-spk-prot-103c89c3-r1.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c89c3-l1.bin -> cs35l41-dsp1-spk-cali-103c89c3-r1.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8981-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8981-r1.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8981-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8981-l1.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8981-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8981-r1.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8981-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8981-l1.bin
+File: cirrus/cs35l41/v6.39.0/halo_cspl_RAM_revB2_29.41.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa3847.wmfw -> cs35l41/v6.39.0/halo_cspl_RAM_revB2_29.41.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa3847.wmfw -> cs35l41/v6.39.0/halo_cspl_RAM_revB2_29.41.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3847-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3847-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa3847-spkid0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3847-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3847-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa3847-spkid1.bin
+File: cirrus/cs35l41/v6.47.0/halo_cspl_RAM_revB2_29.49.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa3855.wmfw -> cs35l41/v6.47.0/halo_cspl_RAM_revB2_29.49.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa3855.wmfw -> cs35l41/v6.47.0/halo_cspl_RAM_revB2_29.49.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3855-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3855-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa3855-spkid0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3855-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa3855-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa3855-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f1.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f1.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f2.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f2.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa22f1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa22f1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa22f1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa22f1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa22f2-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa22f2-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa22f2-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3-l0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3-r0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3-l0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3-r0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-r0.bin
+File: cirrus/cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-104312af.wmfw -> cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-104312af.wmfw -> cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-104312af-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104312af-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104312af-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104312af-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-104312af-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a8f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a8f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431a8f-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431a8f-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431e02.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431e02.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431f12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431f12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431e12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431e12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431b93.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431b93.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a20.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a20.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a30.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a30.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a40.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a40.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a50.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a50.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a60.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a60.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431b93-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a20-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431b93-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10433a30-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10433a40-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10433a30-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a50-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a50-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a60-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a60-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a60-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a60-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a60-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a60-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10433a60-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10433a60-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2316.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2316.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2317.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2317.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa2316-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa2316-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa2316-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa2316-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa2316-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa2316-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa2316-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa2316-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2317-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-17aa2316-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2317-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-17aa2316-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2317-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-17aa2316-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2317-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-17aa2316-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2317-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-17aa2316-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2317-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-17aa2316-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2317-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-17aa2316-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2317-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-17aa2316-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2318.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2318.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2319.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2319.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa231a.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa231a.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2318-l0.bin -> cs35l41-dsp1-spk-prot-17aa22f1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2318-r0.bin -> cs35l41-dsp1-spk-prot-17aa22f1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2318-l0.bin -> cs35l41-dsp1-spk-cali-17aa22f1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2318-r0.bin -> cs35l41-dsp1-spk-cali-17aa22f1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2319-l0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa2319-r0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2319-l0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa2319-r0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa231a-l0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa231a-r0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa231a-l0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa231a-r0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8c26.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8c26.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b42.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b42.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b43.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b43.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b44.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b44.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b45.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b45.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b46.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b46.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b47.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b47.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b63.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b63.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b70.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b70.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b72.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b72.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b74.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b74.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b77.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b77.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b8f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b92.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b42.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b42.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b43.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b43.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b44.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b44.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b45.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b45.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b46.bin -> cs35l41-dsp1-spk-prot-103c8b45.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b46.bin -> cs35l41-dsp1-spk-cali-103c8b45.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b47.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b47.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b63-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b63-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b63-r1.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b63-r1.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b63-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b63-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b63-l1.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b63-l1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b70.bin -> cs35l41-dsp1-spk-prot-103c8b42.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b70.bin -> cs35l41-dsp1-spk-cali-103c8b42.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b72.bin -> cs35l41-dsp1-spk-prot-103c8b45.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b72.bin -> cs35l41-dsp1-spk-cali-103c8b45.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b74.bin -> cs35l41-dsp1-spk-prot-103c8b47.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b74.bin -> cs35l41-dsp1-spk-cali-103c8b47.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b77.bin -> cs35l41-dsp1-spk-prot-103c8b45.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b77.bin -> cs35l41-dsp1-spk-cali-103c8b45.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b8f-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b8f-r1.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b8f-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b8f-r1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b8f-l0.bin -> cs35l41-dsp1-spk-prot-103c8b8f-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8b8f-l1.bin -> cs35l41-dsp1-spk-prot-103c8b8f-r1.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b8f-l0.bin -> cs35l41-dsp1-spk-cali-103c8b8f-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8b8f-l1.bin -> cs35l41-dsp1-spk-cali-103c8b8f-r1.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8b92.bin
+File: cirrus/cs35l41-dsp1-spk-cali-103c8b92.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8c26.bin -> cs35l41-dsp1-spk-prot-103c8b45.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8c26.bin -> cs35l41-dsp1-spk-cali-103c8b45.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2022 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
+Driver: mtk-sof - MediaTek Sound Open Firmware driver
+
+File: mediatek/sof/sof-mt8186.ri
+File: mediatek/sof/sof-mt8186.ldc
+File: mediatek/sof-tplg/sof-mt8186.tplg
+Version: v0.2.1
+
+File: mediatek/sof/sof-mt8195.ri
+File: mediatek/sof/sof-mt8195.ldc
+File: mediatek/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682.tplg
+File: mediatek/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682-dts.tplg
+Version: v0.4.1
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: nxp-sr1xx - NXP Ultra Wide Band driver
+File: nxp/sr150_fw.bin
+Version: 35.00.03
+
+Licence: Redistributable. See LICENSE.nxp for details
+Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
+--------------------------------------------------------------------------
+
+Driver: btnxpuart - NXP BT UART driver
+
+File: nxp/uartuart8997_bt_v4.bin
+File: nxp/uartiw416_bt_v0.bin
+File: nxp/helper_uart_3000000.bin
+Version: 16.92.21.p81
+
+File: nxp/uartuart8987_bt.bin
+Version: 16.92.21.p76.5
+
+File: nxp/uartuart9098_bt_v1.bin
+Version: 17.92.1.p136.24
+
+File: nxp/uartspi_n61x_v1.bin.se
+Version: 18.99.1.p154.40
+
+Licence: Redistributable. See LICENSE.nxp for details
+
+--------------------------------------------------------------------------
