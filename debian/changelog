@@ -1,4 +1,4 @@
-linux-firmware (1.202.15+dde) mantic; urgency=medium
+linux-firmware (1.202.15) mantic; urgency=medium
 
   * update mediatek 7922 firmware
     - File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
