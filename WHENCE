@@ -536,14 +536,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.27.3.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.27.3.0.bin
+File: cxgb4/t4fw-1.27.5.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.27.5.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.27.3.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.27.3.0.bin
-File: cxgb4/t6fw-1.27.3.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.27.3.0.bin
+File: cxgb4/t5fw-1.27.5.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.27.5.0.bin
+File: cxgb4/t6fw-1.27.5.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.27.5.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 File: cxgb4/configs/t4-config-default.txt
@@ -1017,22 +1017,22 @@ File: iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
 File: iwlwifi-cc-a0-77.ucode
-Version: 74.206b0184.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.206b0184.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.206b0184.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.206b0184.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.206b0184.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.206b0184.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-QuZ-a0-jf-b0-77.ucode
 Version: 74.206b0184.0
@@ -1049,6 +1049,15 @@ Version: 76.27f1c37b.0
 File: iwlwifi-ty-a0-gf-a0-81.ucode
 Version: 78.31fc9ae6.0
 
+File: iwlwifi-ty-a0-gf-a0-83.ucode
+Version: 80.e8f84e98.0
+
+File: iwlwifi-ty-a0-gf-a0-84.ucode
+Version: 81.8e5c544c.0
+
+File: iwlwifi-ty-a0-gf-a0-86.ucode
+Version: 83.fb5c9aeb.0
+
 File: iwlwifi-so-a0-gf4-a0-77.ucode
 Version: 74.f92b5fed.0
 
@@ -1060,6 +1069,15 @@ Version: 76.27f1c37b.0
 
 File: iwlwifi-so-a0-gf4-a0-81.ucode
 Version: 78.31fc9ae6.0
+
+File: iwlwifi-so-a0-gf4-a0-83.ucode
+Version: 80.e8f84e98.0
+
+File: iwlwifi-so-a0-gf4-a0-84.ucode
+Version: 81.8e5c544c.0
+
+File: iwlwifi-so-a0-gf4-a0-86.ucode
+Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1073,6 +1091,15 @@ Version: 75.27f1c37b.0
 File: iwlwifi-so-a0-gf-a0-81.ucode
 Version: 78.31fc9ae6.0
 
+File: iwlwifi-so-a0-gf-a0-83.ucode
+Version: 80.e8f84e98.0
+
+File: iwlwifi-so-a0-gf-a0-84.ucode
+Version: 81.8e5c544c.0
+
+File: iwlwifi-so-a0-gf-a0-86.ucode
+Version: 83.fb5c9aeb.0
+
 File: iwlwifi-so-a0-hr-b0-77.ucode
 Version: 74.f92b5fed.0
 
@@ -1082,10 +1109,49 @@ Version: 75.27f1c37b.0
 File: iwlwifi-so-a0-hr-b0-81.ucode
 Version: 78.31fc9ae6.0
 
+File: iwlwifi-so-a0-hr-b0-83.ucode
+Version: 80.e8f84e98.0
+
+File: iwlwifi-so-a0-hr-b0-84.ucode
+Version: 81.8e5c544c.0
+
+File: iwlwifi-so-a0-hr-b0-86.ucode
+Version: 83.fb5c9aeb.0
+
 File: iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
 
 File: iwlwifi-ty-a0-gf-a0.pnvm
+
+File: iwlwifi-gl-c0-fm-c0-83.ucode
+Version: 80.ec13314b.0
+
+File: iwlwifi-gl-c0-fm-c0-86.ucode
+Version: 83.fb5c9aeb.0
+
+File: iwlwifi-gl-c0-fm-c0.pnvm
+
+File: iwlwifi-ma-b0-gf-a0-83.ucode
+Version: 80.d24e06ed.0
+
+File: iwlwifi-ma-b0-gf-a0-86.ucode
+Version: 83.fb5c9aeb.0
+
+File: iwlwifi-ma-b0-gf-a0.pnvm
+
+File: iwlwifi-ma-b0-gf4-a0-83.ucode
+Version: 80.d24e06ed.0
+
+File: iwlwifi-ma-b0-gf4-a0-86.ucode
+Version: 83.fb5c9aeb.0
+
+File: iwlwifi-ma-b0-gf4-a0.pnvm
+
+File: iwlwifi-ma-b0-hr-b0-83.ucode
+Version: 80.d24e06ed.0
+
+File: iwlwifi-ma-b0-hr-b0-86.ucode
+Version: 83.fb5c9aeb.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1101,6 +1167,67 @@ md5sum: 59abc311fce49c5a180b5a8a3917912d
 Link: intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 
 Licence: Redistributable. See LICENSE.ipu3_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: intel-ipu6-isys - Intel IPU6 (Image Processing Unit 6) driver
+
+File: intel/ipu6epadln_fw.bin
+File: intel/ipu6ep_fw.bin
+File: intel/ipu6epmtl_fw.bin
+File: intel/ipu6_fw.bin
+Version: scci_master_20230926_0007
+
+File: intel/ipu6se_fw.bin
+Version: scci_master_20210502_1459
+
+Licence: Redistributable. See LICENSE.ivsc for details
+
+--------------------------------------------------------------------------
+
+Driver: mei-vsc-hw - Intel Visual Sensing Controller
+
+File: intel/vsc/ivsc_fw.bin
+File: intel/vsc/ivsc_pkg_hi556_0.bin
+File: intel/vsc/ivsc_pkg_himx11b1_0.bin
+File: intel/vsc/ivsc_pkg_himx2170_0.bin
+File: intel/vsc/ivsc_pkg_himx2172_0.bin
+File: intel/vsc/ivsc_pkg_int3537_0.bin
+File: intel/vsc/ivsc_pkg_ovti01a0_0.bin
+File: intel/vsc/ivsc_pkg_ovti01af_0.bin
+File: intel/vsc/ivsc_pkg_ovti01as_0.bin
+File: intel/vsc/ivsc_pkg_ovti02c1_0.bin
+File: intel/vsc/ivsc_pkg_ovti02e1_0.bin
+File: intel/vsc/ivsc_pkg_ovti2740_0.bin
+File: intel/vsc/ivsc_pkg_ovti5678_0.bin
+File: intel/vsc/ivsc_pkg_ovti9734_0.bin
+File: intel/vsc/ivsc_pkg_ovti9738_0.bin
+File: intel/vsc/ivsc_skucfg_hi556_0_1.bin
+File: intel/vsc/ivsc_skucfg_himx11b1_0_1.bin
+File: intel/vsc/ivsc_skucfg_himx2170_0_1.bin
+File: intel/vsc/ivsc_skucfg_himx2172_0_1.bin
+File: intel/vsc/ivsc_skucfg_int3537_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti01a0_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti01af_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti01as_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti02c1_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti02e1_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti2740_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti5678_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti9734_0_1.bin
+File: intel/vsc/ivsc_skucfg_ovti9738_0_1.bin
+
+Licence: Redistributable. See LICENSE.ivsc for details
+
+--------------------------------------------------------------------------
+
+Driver: ixp4xx-npe - Intel IXP4xx XScale Network Processing Engine (NPE) Firmware
+File: ixp4xx/NPE-A
+File: ixp4xx/NPE-A-HSS
+File: ixp4xx/NPE-B
+File: ixp4xx/NPE-C
+Version: date = February 26, 2007
+License: Redistributable. See LICENSE.ixp4xx for details
 
 --------------------------------------------------------------------------
 
@@ -2346,6 +2473,8 @@ File: amdgpu/aldebaran_smc.bin
 File: amdgpu/aldebaran_sos.bin
 File: amdgpu/aldebaran_ta.bin
 File: amdgpu/aldebaran_vcn.bin
+File: amdgpu/gc_9_4_3_mec.bin
+File: amdgpu/gc_9_4_3_rlc.bin
 File: amdgpu/gc_10_3_6_ce.bin
 File: amdgpu/gc_10_3_6_me.bin
 File: amdgpu/gc_10_3_6_mec.bin
@@ -2366,6 +2495,7 @@ File: amdgpu/gc_11_0_0_mes.bin
 File: amdgpu/gc_11_0_0_mes_2.bin
 File: amdgpu/gc_11_0_0_pfp.bin
 File: amdgpu/gc_11_0_0_rlc.bin
+File: amdgpu/gc_11_0_0_rlc_1.bin
 File: amdgpu/gc_11_0_1_imu.bin
 File: amdgpu/gc_11_0_1_me.bin
 File: amdgpu/gc_11_0_1_mec.bin
@@ -2382,6 +2512,13 @@ File: amdgpu/gc_11_0_2_mes.bin
 File: amdgpu/gc_11_0_2_mes_2.bin
 File: amdgpu/gc_11_0_2_pfp.bin
 File: amdgpu/gc_11_0_2_rlc.bin
+File: amdgpu/gc_11_0_3_imu.bin
+File: amdgpu/gc_11_0_3_me.bin
+File: amdgpu/gc_11_0_3_mec.bin
+File: amdgpu/gc_11_0_3_mes1.bin
+File: amdgpu/gc_11_0_3_mes_2.bin
+File: amdgpu/gc_11_0_3_pfp.bin
+File: amdgpu/gc_11_0_3_rlc.bin
 File: amdgpu/gc_11_0_4_imu.bin
 File: amdgpu/gc_11_0_4_me.bin
 File: amdgpu/gc_11_0_4_mec.bin
@@ -2402,26 +2539,46 @@ File: amdgpu/psp_13_0_4_toc.bin
 File: amdgpu/psp_13_0_5_asd.bin
 File: amdgpu/psp_13_0_5_ta.bin
 File: amdgpu/psp_13_0_5_toc.bin
+File: amdgpu/psp_13_0_6_sos.bin
+File: amdgpu/psp_13_0_6_ta.bin
 File: amdgpu/psp_13_0_7_sos.bin
 File: amdgpu/psp_13_0_7_ta.bin
 File: amdgpu/psp_13_0_8_asd.bin
 File: amdgpu/psp_13_0_8_ta.bin
 File: amdgpu/psp_13_0_8_toc.bin
+File: amdgpu/psp_13_0_10_sos.bin
+File: amdgpu/psp_13_0_10_ta.bin
 File: amdgpu/psp_13_0_11_ta.bin
 File: amdgpu/psp_13_0_11_toc.bin
+File: amdgpu/sdma_4_4_2.bin
 File: amdgpu/sdma_5_2_6.bin
 File: amdgpu/sdma_5_2_7.bin
 File: amdgpu/sdma_6_0_0.bin
 File: amdgpu/sdma_6_0_1.bin
 File: amdgpu/sdma_6_0_2.bin
+File: amdgpu/sdma_6_0_3.bin
 File: amdgpu/smu_13_0_0.bin
+File: amdgpu/smu_13_0_6.bin
 File: amdgpu/smu_13_0_7.bin
+File: amdgpu/smu_13_0_10.bin
 File: amdgpu/vcn_3_1_2.bin
 File: amdgpu/vcn_4_0_0.bin
 File: amdgpu/vcn_4_0_2.bin
+File: amdgpu/vcn_4_0_3.bin
 File: amdgpu/vcn_4_0_4.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
+
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+
+Driver: amd_pmf - AMD Platform Management Framework TA
+
+File: amdtee/773bd96f-b83f-4d52-b12dc529b13d8543.bin
+Link: amdtee/amd_pmf_v3.bin -> 773bd96f-b83f-4d52-b12dc529b13d8543.bin
+
+Licence: Redistributable. See LICENSE.amd_pmf for details.
 
 --------------------------------------------------------------------------
 
@@ -3199,6 +3356,9 @@ Version: 0.0.2
 File: rtl_nic/rtl8125b-2.fw
 Version: 0.0.2
 
+File: rtl_nic/rtl8126a-2.fw
+Version: 0.0.2
+
 Licence:
  * Copyright © 2011-2013, Realtek Semiconductor Corporation
  *
@@ -3375,10 +3535,10 @@ Version: WLAN.TF.2.1-00021-QCARMSWP-1
 File: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
 File: ath10k/WCN3990/hw1.0/board-2.bin
 File: ath10k/WCN3990/hw1.0/firmware-5.bin
-File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
-Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+File: qcom/sdm845/wlanmdsp.mbn
+Link: ath10k/WCN3990/hw1.0/wlanmdsp.mbn -> ../../../qcom/sdm845/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
-File: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
+File: qcom/sdm845/notice.txt_wlanmdsp
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3431,7 +3591,7 @@ File: ath11k/WCN6855/hw2.0/regdb.bin
 File: ath11k/WCN6855/hw2.0/board-2.bin
 File: ath11k/WCN6855/hw2.0/amss.bin
 File: ath11k/WCN6855/hw2.0/m3.bin
-Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.23
+Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.37
 File: ath11k/WCN6855/hw2.0/Notice.txt
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
 Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
@@ -3478,6 +3638,18 @@ File: ath11k/IPQ5018/hw1.0/q6_fw.flist
 File: ath11k/IPQ5018/hw1.0/q6_fw.mdt
 Version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
 File: ath11k/IPQ5018/hw1.0/Notice.txt
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+
+--------------------------------------------------------------------------
+
+Driver: ath12k - Qualcomm Technologies Wi-Fi 7 chipset support
+
+File: ath12k/WCN7850/hw2.0/board-2.bin
+File: ath12k/WCN7850/hw2.0/amss.bin
+File: ath12k/WCN7850/hw2.0/m3.bin
+Version: WLAN.HMT.1.0.c5-00481-QCAHMTSWPL_V1.0_V2.0_SILICONZ-3
+File: ath12k/WCN7850/hw2.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3645,13 +3817,13 @@ Version: BT_WindStormPeak_REL1299
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL1299
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20332
+Version: BT_JeffersonPeak_B0_B0_REL20379
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20332
+Version: BT_JeffersonPeak_B0_B0_REL20379
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20332
+Version: BT_JeffersonPeak_B0_B0_REL20379
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20332
+Version: BT_JeffersonPeak_B0_B0_REL20379
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3661,13 +3833,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL20182
+Version: BT_ThunderPeak_B0_B0_REL20379
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL20182
+Version: BT_ThunderPeak_B0_B0_REL20379
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL20182
+Version: BT_ThunderPeak_B0_B0_REL20379
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL20182
+Version: BT_ThunderPeak_B0_B0_REL20379
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3676,97 +3848,126 @@ File: intel/ibt-18-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
-File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL53392
-File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL53392
-File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL53392
-File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL53392
-File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL53392
-File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL53392
-File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL53392
-File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL53392
-File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL53392
-File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL53392
-File:intel/ibt-19-0-3.sfi
+File: intel/ibt-20-0-3.sfi
+Version: BT_CyclonePeak_A0_REL53497
+File: intel/ibt-20-0-3.ddc
+Version: BT_CyclonePeak_A0_REL53497
+File: intel/ibt-20-1-3.sfi
+Version: BT_CyclonePeak_A0_REL53497
+File: intel/ibt-20-1-3.ddc
+Version: BT_CyclonePeak_A0_REL53497
+File: intel/ibt-20-1-4.sfi
+Version: BT_CyclonePeak_A0_REL53497
+File: intel/ibt-20-1-4.ddc
+Version: BT_CyclonePeak_A0_REL53497
+File: intel/ibt-19-0-0.sfi
+Version: BT_Quasar_REL53497
+File: intel/ibt-19-0-0.ddc
+Version: BT_Quasar_REL53497
+File: intel/ibt-19-0-1.sfi
+Version: BT_Quasar_REL53497
+File: intel/ibt-19-0-1.ddc
+Version: BT_Quasar_REL53497
+File: intel/ibt-19-0-3.sfi
 Version: BT_Quasar_REL53263
-File:intel/ibt-19-0-3.ddc
+File: intel/ibt-19-0-3.ddc
 Version: BT_Quasar_REL53263
-File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL53392
-File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL62562
-File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL62562
-File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL62562
-File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL62562
-File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL62562
-File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL62562
+File: intel/ibt-19-0-4.sfi
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-0-4.ddc
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-16-4.sfi
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-16-4.ddc
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-32-1.sfi
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-32-1.ddc
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-32-0.sfi
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-32-0.ddc
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-32-4.sfi
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-32-4.ddc
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-240-1.sfi
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-240-1.ddc
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-240-4.sfi
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-19-240-4.ddc
+Version: BT_HarrisonPeak_REL53497
+File: intel/ibt-0041-0041.sfi
+Version: BT_TyphoonPeak_REL75234
+File: intel/ibt-0041-0041.ddc
+Version: BT_TyphoonPeak_REL75234
+File: intel/ibt-0040-0041.sfi
+Version: BT_Solar_GfP2_REL75234
+File: intel/ibt-0040-0041.ddc
+Version: BT_Solar_GfP2_REL75234
+File: intel/ibt-1040-0041.sfi
+Version: BT_SolarF_GfP2_REL75234
+File: intel/ibt-1040-0041.ddc
+Version: BT_SolarF_GfP2_REL75234
 
-File:intel/ibt-0040-1020.sfi
+File: intel/ibt-0040-1020.sfi
 Version: BT_Solar_JfP1_REL59564
-File:intel/ibt-0040-1020.ddc
+File: intel/ibt-0040-1020.ddc
 Version: BT_Solar_JfP1_REL59564
-File:intel/ibt-1040-1020.sfi
+File: intel/ibt-1040-1020.sfi
 Version: BT_SolarF_JfP1_REL59564
-File:intel/ibt-1040-1020.ddc
+File: intel/ibt-1040-1020.ddc
 Version: BT_SolarF_JfP1_REL59564
 
-File:intel/ibt-0040-2120.sfi
+File: intel/ibt-0040-2120.sfi
 Version: BT_Solar_JfP2_REL52159
-File:intel/ibt-0040-2120.ddc
+File: intel/ibt-0040-2120.ddc
 Version: BT_Solar_JfP2_REL52159
-File:intel/ibt-1040-2120.sfi
+File: intel/ibt-1040-2120.sfi
 Version: BT_SolarF_JfP2_REL59564
-File:intel/ibt-1040-2120.ddc
+File: intel/ibt-1040-2120.ddc
 Version: BT_SolarF_JfP2_REL59564
 
-File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_JnP2_REL62562
-File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_JnP2_REL62562
-File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_JnP2_REL62562
-File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_JnP2_REL62562
+File: intel/ibt-0040-1050.sfi
+Version: BT_Solar_HrP1_REL75234
+File: intel/ibt-0040-1050.ddc
+Version: BT_Solar_HrP1_REL75234
+File: intel/ibt-1040-1050.sfi
+Version: BT_SolarF_HrP1_REL73111
+File: intel/ibt-1040-1050.ddc
+Version: BT_SolarF_HrP1_REL73111
+
+File: intel/ibt-0040-4150.sfi
+Version: BT_Solar_JnP2_REL75234
+File: intel/ibt-0040-4150.ddc
+Version: BT_Solar_JnP2_REL75234
+File: intel/ibt-1040-4150.sfi
+Version: BT_SolarF_JnP2_REL75234
+File: intel/ibt-1040-4150.ddc
+Version: BT_SolarF_JnP2_REL75234
+
+File: intel/ibt-0291-0291.sfi
+Version: BT_GalePeak_REL45894
+File: intel/ibt-0291-0291.ddc
+Version: BT_GalePeak_REL45894
+
+File: intel/ibt-0180-0041.sfi
+Version: BT_Magnetar_GfP2_REL94759
+File: intel/ibt-0180-0041.ddc
+Version: BT_Magnetar_GfP2_REL94759
+
+File: intel/ibt-0180-4150.sfi
+Version: BT_Magnetar_JnP2_REL94759
+File: intel/ibt-0180-4150.ddc
+Version: BT_Magnetar_JnP2_REL94759
+
+File: intel/ibt-0180-1050.sfi
+Version: BT_Magnetar_HrP1_REL94759
+File: intel/ibt-0180-1050.ddc
+Version: BT_Magnetar_HrP1_REL94759
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3802,9 +4003,12 @@ File: rtl_bt/rtl8852au_config.bin
 File: rtl_bt/rtl8852bu_fw.bin
 File: rtl_bt/rtl8852bu_config.bin
 File: rtl_bt/rtl8852cu_fw.bin
+File: rtl_bt/rtl8852cu_fw_v2.bin
 File: rtl_bt/rtl8852cu_config.bin
 File: rtl_bt/rtl8851bu_fw.bin
 File: rtl_bt/rtl8851bu_config.bin
+File: rtl_bt/rtl8852btu_fw.bin
+File: rtl_bt/rtl8852btu_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3881,7 +4085,9 @@ Version: 2022-2-25
 File: amd/amd_sev_fam17h_model3xh.sbin
 Version: 2022-2-25
 File: amd/amd_sev_fam19h_model0xh.sbin
-Version: 2022-2-25
+Version: 2023-8-23	
+File: amd/amd_sev_fam19h_model1xh.sbin
+Version: 2023-8-23
 
 License: Redistributable. See LICENSE.amd-sev for details
 
@@ -3889,21 +4095,16 @@ License: Redistributable. See LICENSE.amd-sev for details
 
 Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
 
-File: amd-ucode/microcode_amd.bin
-Raw: amd-ucode/microcode_amd.bin
+RawFile: amd-ucode/microcode_amd.bin
 Version: 2013-07-10
-File: amd-ucode/microcode_amd_fam15h.bin
-Raw: amd-ucode/microcode_amd_fam15h.bin
+RawFile: amd-ucode/microcode_amd_fam15h.bin
 Version: 2018-05-24
-File: amd-ucode/microcode_amd_fam16h.bin
-Raw: amd-ucode/microcode_amd_fam16h.bin
+RawFile: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
-File: amd-ucode/microcode_amd_fam17h.bin
-Raw: amd-ucode/microcode_amd_fam17h.bin
-Version: 2023-04-13
-File: amd-ucode/microcode_amd_fam19h.bin
-Raw: amd-ucode/microcode_amd_fam19h.bin
-Version: 2023-01-31
+RawFile: amd-ucode/microcode_amd_fam17h.bin
+Version: 2023-12-05
+RawFile: amd-ucode/microcode_amd_fam19h.bin
+Version: 2024-01-16
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -4662,7 +4863,7 @@ File: i915/adlp_dmc_ver2_16.bin
 Version: DMC API/APB ver 2 release 16 for Alderlake P
 
 File: i915/adlp_dmc.bin
-Version: DMC API/APB ver 2 release 19 for Alderlake P
+Version: DMC API/APB ver 2 release 20 for Alderlake P
 
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
@@ -4674,7 +4875,7 @@ File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
 File: i915/adlp_guc_70.bin
-Version: GuC API/APB ver 70.5.1 for Alderlake P
+Version: GuC API/APB ver 70.13.1 for Alderlake P
 
 File: i915/dg2_guc_70.1.2.bin
 Version: GuC API/APB ver 70.1.2 for DG2
@@ -4683,7 +4884,7 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.5.1 for DG2
+Version: GuC API/APB ver 70.13.1 for DG2
 
 File: i915/dg2_huc_gsc.bin
 Version: HuC API/APB ver 7.10.3 for DG2
@@ -4701,13 +4902,16 @@ File: i915/mtl_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Meteorlake
 
 File: i915/mtl_dmc.bin
-Version: DMC API/APB ver 2 release 12 for Meteorlake
+Version: DMC API/APB ver 2 release 19 for Meteorlake
 
 File: i915/mtl_guc_70.bin
-Version: GuC API/APB ver 70.6.6 for Meteorlake
+Version: GuC API/APB ver 70.13.1 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
-Version: HuC API/APB ver 8.5.0 for Meteorlake
+Version: HuC API/APB ver 8.5.4 for Meteorlake
+
+File: i915/mtl_gsc_1.bin
+Version: GSC API/APB v1.0, release 102.0.0.1655, SVN 1 for Meteorlake
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -5125,6 +5329,48 @@ Link: nvidia/ga107/sec2/sig.bin -> ../../ga102/sec2/sig.bin
 File: nvidia/tu10x/typec/ccg_primary.cyacd
 File: nvidia/tu10x/typec/ccg_secondary.cyacd
 File: nvidia/tu10x/typec/ccg_boot.cyacd
+
+Firmware images needed for GSP-RM:
+
+File: nvidia/tu102/gsp/bootloader-535.113.01.bin
+File: nvidia/tu102/gsp/booter_load-535.113.01.bin
+File: nvidia/tu102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/tu104/gsp -> ../tu102/gsp
+Link: nvidia/tu106/gsp -> ../tu102/gsp
+
+File: nvidia/tu116/gsp/booter_load-535.113.01.bin
+File: nvidia/tu116/gsp/booter_unload-535.113.01.bin
+Link: nvidia/tu116/gsp/bootloader-535.113.01.bin -> ../../tu102/gsp/bootloader-535.113.01.bin
+Link: nvidia/tu117/gsp -> ../tu116/gsp
+
+File: nvidia/ga100/gsp/bootloader-535.113.01.bin
+File: nvidia/ga100/gsp/booter_load-535.113.01.bin
+File: nvidia/ga100/gsp/booter_unload-535.113.01.bin
+
+File: nvidia/ad102/gsp/bootloader-535.113.01.bin
+File: nvidia/ad102/gsp/booter_load-535.113.01.bin
+File: nvidia/ad102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/ad103/gsp -> ../ad102/gsp
+Link: nvidia/ad104/gsp -> ../ad102/gsp
+Link: nvidia/ad106/gsp -> ../ad102/gsp
+Link: nvidia/ad107/gsp -> ../ad102/gsp
+
+File: nvidia/ga102/gsp/bootloader-535.113.01.bin
+File: nvidia/ga102/gsp/booter_load-535.113.01.bin
+File: nvidia/ga102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/ga103/gsp -> ../ga102/gsp
+Link: nvidia/ga104/gsp -> ../ga102/gsp
+Link: nvidia/ga106/gsp -> ../ga102/gsp
+Link: nvidia/ga107/gsp -> ../ga102/gsp
+
+File: nvidia/tu102/gsp/gsp-535.113.01.bin
+Origin: gsp_tu10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
+Link: nvidia/tu116/gsp/gsp-535.113.01.bin -> ../../tu102/gsp/gsp-535.113.01.bin
+Link: nvidia/ga100/gsp/gsp-535.113.01.bin -> ../../tu102/gsp/gsp-535.113.01.bin
+
+File: nvidia/ga102/gsp/gsp-535.113.01.bin
+Origin: gsp_ga10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
+Link: nvidia/ad102/gsp/gsp-535.113.01.bin -> ../../ga102/gsp/gsp-535.113.01.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 

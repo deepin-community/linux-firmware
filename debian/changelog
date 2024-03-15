@@ -1,3 +1,13 @@
+
+linux-firmware (1.202.16) deepin; urgency=medium
+
+  * update MTL firmware and upstream to 20240220
+    - [MeteorLake][SOF] Update MTL-RT711-4CH topology file.  
+    - [MeteorLake][SOF] Add MeteorLake SOF firmware and topology 
+    - update to 20240202.git36777504-0ubuntu1 
+
+ -- Lugang He <helugang@uniontech.com>  Fri, 15 Mar 2024 15:55:10 +0800
+
 linux-firmware (1.202.15) mantic; urgency=medium
 
   * update mediatek 7922 firmware
