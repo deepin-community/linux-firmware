@@ -66,12 +66,12 @@ def list_git():
 
 def main():
     ret = 0
-    whence_list = list(list_whence("WHENCE")) + list(list_whence("WHENCE.ubuntu"))
+    whence_list = list(list_whence("WHENCE")) + list(list_whence("WHENCE.deepin"))
     whence_files = list(list_whence_files("WHENCE")) + list(
-        list_whence_files("WHENCE.ubuntu")
+        list_whence_files("WHENCE.deepin")
     )
     links_list = list(list_links_list("WHENCE")) + list(
-        list_links_list("WHENCE.ubuntu")
+        list_links_list("WHENCE.deepin")
     )
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
@@ -81,7 +81,7 @@ def main():
             "README.md",
             "copy-firmware.sh",
             "WHENCE",
-            "WHENCE.ubuntu",
+            "WHENCE.deepin",
             "contrib/templates/debian.changelog",
             "contrib/templates/debian.control",
             "contrib/templates/debian.copyright",
