@@ -1,4 +1,10 @@
 
+linux-firmware (1.202.17) deepin; urgency=medium
+
+  * update to upstream 20240913
+
+ -- Lugang He <helugang@uniontech.com>  Fri, 15 Oct 2024 10:58:17 +0800
+
 linux-firmware (1.202.16) deepin; urgency=medium
 
   * update MTL firmware and upstream to 20240220
@@ -35,7 +41,7 @@ linux-firmware (1.202.13) mantic; urgency=medium
 linux-firmware (20230629.gitee91452d-0ubuntu1) mantic; urgency=medium
 
   * Miscellaneous Ubuntu changes
-    - SAUCE: Remove RTL8192E from WHENCE.ubuntu
+    - SAUCE: Remove RTL8192E from WHENCE.deepin
     - [Packaging] build-package: Add --clean commandline option
     - [Packaging] close-release: Always append version suffix
     - [Packaging] close-release: Fix tag name and commit subject
@@ -632,7 +638,7 @@ linux-firmware (20220711.gitdfa29317-0ubuntu1) kinetic; urgency=medium
 linux-firmware (20220621.git7b71b75b-0ubuntu1) kinetic; urgency=medium
 
   * Miscellaneous Ubuntu changes
-    - Clean up WHENCE.ubuntu
+    - Clean up WHENCE.deepin
     - [Packaging] scripts: Use the changelog to determine the upstream commit
     - Rebase to upstream commit 7b71b75be8fb0fa7cceeb3dc22f97920a6be28bd
       Rebase against git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
@@ -811,7 +817,7 @@ linux-firmware (20220314.gitcd01f857-0ubuntu1) jammy; urgency=medium
 linux-firmware (20220302.gitee0667aa-0ubuntu1) jammy; urgency=medium
 
   * Miscellaneous Ubuntu changes
-    - Add fw_source/ and debian/ directories to WHENCE.ubuntu
+    - Add fw_source/ and debian/ directories to WHENCE.deepin
     - [Packaging] compress-firmware: Make it more readable and verbose
     - [Packaging] compress-firmware: Ignore symlinks pointing at directories
     - Rebase to upstream commit ee0667aa201e7d725ec87b1e4cf08de1d748d64f
@@ -1003,7 +1009,7 @@ linux-firmware (1.204) jammy; urgency=medium
 linux-firmware (1.203) jammy; urgency=medium
 
   * SAUCE: check_whence.py: Add python3 shebang
-  * SAUCE: check_whence.py: Also process WHENCE.ubuntu
+  * SAUCE: check_whence.py: Also process WHENCE.deepin
   * SAUCE: check_whence.py: Ignore debian/ and fw_source/ directories
   * SAUCE: check_whence.py: Ignore ea/ directory
   * [Packaging] Add check debian rule
@@ -1076,7 +1082,7 @@ linux-firmware (1.203) jammy; urgency=medium
     - linux-firmware: Update firmware file for Intel Bluetooth 9462
   * [Packaging] close-release: Exclude merge commits from the changelog
   * Rename LICENCE.dib0700 to LICENSE.dib0700
-  * Add LICENCE.realtek-firmware.txt to WHENCE.ubuntu
+  * Add LICENCE.realtek-firmware.txt to WHENCE.deepin
   * Remove unnecessary symbolic links
   * Move Ubuntu check_firmware script to debian/scripts/
   * linux-firmware: remove sof-firmware files
@@ -1105,7 +1111,7 @@ linux-firmware (1.203) jammy; urgency=medium
   * SAUCE: Remove obsolete files from WHENCE
   * SAUCE: Remove obsolete cxgb3 from WHENCE
   * SAUCE: Remove obsolete ueagle-atm from WHENCE
-  * [Packaging] Add WHENCE.ubuntu as README.ubuntu to the package
+  * [Packaging] Add WHENCE.deepin as README.ubuntu to the package
   * [Packaging] Run sanity checks in the cleaning stage
 
  -- Juerg Haefliger <juergh@canonical.com>  Mon, 06 Dec 2021 15:38:13 +0100
@@ -1829,8 +1835,8 @@ linux-firmware (1.184) focal; urgency=medium
   * Miscellaneous Ubuntu changes
     - [Debian] Add script to identify missing firmware files
     - rebase to upstream commit 11bdc578ec861c7797ec614d60737a0448b68195
-    - Fix File: entries in WHENCE.ubuntu
-    - SAUCE: Also install files from WHENCE.ubuntu
+    - Fix File: entries in WHENCE.deepin
+    - SAUCE: Also install files from WHENCE.deepin
     - [Debian] Use "make install" to install firmware
     - [Debian] Move maintainer scripts to debian/scripts
     - SAUCE: Remove IXP4xx NPE firmware files

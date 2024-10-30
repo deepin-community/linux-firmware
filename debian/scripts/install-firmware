@@ -129,4 +129,4 @@ done < <(cd "${firmware_dir}" && find . -type f)
 echo "  - Install WHENCE files"
 
 install -m 0644 WHENCE "${doc_dir}"/README
-install -m 0644 WHENCE.ubuntu "${doc_dir}"/README.ubuntu
+install -m 0644 WHENCE.deepin "${doc_dir}"/README.ubuntu
