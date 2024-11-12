@@ -40,7 +40,6 @@ while [ ${#} -gt 0 ] ; do
 			exit 2
 			;;
 	esac
-	shift
 done
 
 version=$(dpkg-parsechangelog -SVersion)
@@ -60,6 +59,7 @@ fi
 git fetch upstream
 
 # Current upstream commit and version
+# shellcheck disable=SC1091
 . debian/upstream
 
 # New upstream commit and version
