@@ -3,14 +3,21 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-arch ?= $(shell dpkg-architecture -q DEB_HOST_ARCH)
-
 clean:
 	dh_testdir
 	dh_clean
 
+	# Run git-build-recipe scripts (only used in conjunction with
+	# Launchpad build recipes for special/unofficial builds)
+	for f in debian/git-build-recipe/* ; do \
+		if [ -f "$${f}" ] && [ -x "$${f}" ] ; then \
+			"$${f}" ; \
+		fi ; \
+	done
+
 	# Run sanity checks if in a git repo
-	if [ -d .git ] && [ -x /usr/bin/python3 ] ; then \
+	if [ -d .git ] && [ -x /usr/bin/python3 ] && \
+	   ! [ -d debian/git-build-recipe ] ; then \
 		$(MAKE) check ; \
 	fi
 
@@ -24,7 +31,7 @@ install-linux-%:
 	dh_prep
 
 	# Install firmware files
-	debian/scripts/install-firmware $(PACKAGE) $(ARCH)
+	debian/scripts/install-firmware $(PACKAGE)
 
 	# Replace duplicate firmware files with symlinks
 	debian/scripts/symlink-duplicates $(PACKAGE)
@@ -41,22 +48,16 @@ install-linux-%:
 	dh_installdeb
 	dh_gencontrol
 	dh_md5sums
-	dh_builddeb
+	dh_builddeb -- -Znone
 
-install-arch: ARCH = $(arch)
-install-arch: install-linux-firmware
+install-indep: install-linux-firmware
 
-install-indep:
-
-install: install-arch install-indep
-
-binary-arch: install-arch
+install: install-indep
 
 binary-indep: install-indep
 
-binary: binary-arch binary-indep
+binary: binary-indep
 
 # There's nothing to build
 build-indep:
-build-arch:
 build:
