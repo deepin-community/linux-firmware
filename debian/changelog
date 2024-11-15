@@ -1,3 +1,11 @@
+linux-firmware (20241108.git3bbb13a7-0ubuntu1deepin1) unstable; urgency=medium
+
+  * Exclude amd64-microcode as we ship them separately.
+  * Mark the package as all.
+  * Add python3 build dependency.
+
+ -- Mingcong Bai <baimingcong@uniontech.com>  Fri, 15 Nov 2024 17:43:03 +0800
+
 linux-firmware (20241108.git3bbb13a7-0ubuntu1) plucky; urgency=medium
 
   * Missing CS35L56 sof firmware for Dell Bolan platform (LP: #2077829)
