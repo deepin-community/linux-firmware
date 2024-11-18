@@ -1,6 +1,7 @@
 linux-firmware (20241108.git3bbb13a7-0ubuntu1deepin1) unstable; urgency=medium
 
   * Exclude amd64-microcode as we ship them separately.
+  * Bundle SOF firmware v2024.09.1 as we did in the last version.
   * Mark the package as all.
   * Add python3 build dependency.
 
