@@ -1,3 +1,9 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin5) unstable; urgency=medium
+
+  * rtw88: Add firmware v33.6.0 for RTL8814AE/RTL8814AU
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Thu, 27 Nov 2025 14:00:00 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin4) unstable; urgency=medium
 
   * Update firmware for Intel Bluetooth and Wi-Fi devices.
