@@ -1,3 +1,12 @@
+linux-firmware (20250317.git1d4c88ee-0ubuntu1deepin1) unstable; urgency=medium
+
+  * Exclude amd64-microcode as we ship them separately.
+  * Bundle SOF firmware v2024.09.1 as we did in the last version.
+  * Mark the package as all.
+  * Add python3 build dependency.
+
+ -- lhdjply <lhdjply@126.com>  Fri, 18 Apr 2025 10:35:26 +0800
+
 linux-firmware (20250317.git1d4c88ee-0ubuntu1) plucky; urgency=medium
 
   * Miscellaneous Ubuntu changes
