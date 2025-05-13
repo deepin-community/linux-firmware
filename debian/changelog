@@ -1,3 +1,13 @@
+linux-firmware (20241108.git3bbb13a7-0ubuntu1deepin2) unstable; urgency=medium
+
+  * update MTK mt7925 firmware
+
+    - File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
+    - File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
+    - File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
+
+ -- Hao Li <lihao1@uniontech.com>  Mon, 12 May 2025 22:35:28 +0800
+
 linux-firmware (20241108.git3bbb13a7-0ubuntu1deepin1) unstable; urgency=medium
 
   * Exclude amd64-microcode as we ship them separately.
