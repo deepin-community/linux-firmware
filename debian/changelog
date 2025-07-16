@@ -1,3 +1,9 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin2) unstable; urgency=medium
+
+  * Fixing conflicts between symbolic links modifying files and symbolic links modifying directories.
+  
+ -- Li Hao <lihao1@uniontech.com>  Wed, 16 Jul 2025 16:20:00 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin1) unstable; urgency=medium
 
   * Exclude amd64-microcode as we ship them separately.
