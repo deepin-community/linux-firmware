@@ -1,3 +1,9 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin3) unstable; urgency=medium
+
+  * clean the sof-ace-tplg dir in preinst for we don`t know the old dir is link or in dir file.
+  
+ -- Wentao Guan <guanwentao@uniontech.com>  Thu, 24 Jul 2025 21:02:00 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin2) unstable; urgency=medium
 
   * Fixing conflicts between symbolic links modifying files and symbolic links modifying directories.

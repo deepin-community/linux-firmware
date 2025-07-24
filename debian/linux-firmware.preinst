@@ -8,6 +8,10 @@ case "$1" in
 		if [ -L /lib/firmware/ath11k/WCN6855/hw2.1 ]; then
 			rm -f /lib/firmware/ath11k/WCN6855/hw2.1
 		fi
+		# Fix intel/sof-ace-tplg link diff in file and dir
+		if [ -e /lib/firmware/intel/sof-ace-tplg ]; then
+			rm -r /lib/firmware/intel/sof-ace-tplg
+		fi
 		;;
 esac
 
