@@ -1,43 +1,33 @@
 diff --git a/.gitea/workflows/pr_check.yaml b/.gitea/workflows/pr_check.yaml
 new file mode 100644
-index 000000000000..c2c1a7208d12
+index 000000000000..7b733a30566b
 --- /dev/null
 +++ b/.gitea/workflows/pr_check.yaml
-@@ -0,0 +1,38 @@
+@@ -0,0 +1,28 @@
 +---
 +name: PR checks
 +
 +on:
-+  pull_request_target:
-+    types:
-+      - edited
-+      - opened
-+      - synchronize
++  pull_request:
 +
 +jobs:
 +  pr_checks:
 +    runs-on: ubuntu-latest
 +    steps:
-+      - step:
-+        name: Show versions
++      - name: Show versions
 +        run: |
 +          cat /etc/os-release
 +          python3 --version
 +          pip3 list
-+      - step:
-+        name: Clone repo
++      - name: Clone repo
 +        uses: actions/checkout@v4
 +        with:
-+          ref: ${{ github.event.pull_request.head.sha }}
-+          repository: ${{ github.event.pull_request.head.repo.full_name }}
-+          fetch-depth: 0
-+      - step:
-+        name: Run pre-commit hooks
++          fetch-depth: 100
++      - name: Run pre-commit hooks
 +        run: |
 +          pre-commit install
 +          pre-commit run --all-files
-+      - step:
-+        name: Run ubuntu-check-commit
++      - name: Run ubuntu-check-commit
 +        uses: actions/ubuntu-check-commit@main
 +        with:
 +          start_rev: ${{ github.event.pull_request.base.sha }}
@@ -940,10 +930,10 @@ index 000000000000..04bad2f9806f
 +License: Redistributable. See LICENCE.fw_sst_0f28 for details.
 diff --git a/WHENCE.ubuntu b/WHENCE.ubuntu
 new file mode 100644
-index 000000000000..336a1d7622f5
+index 000000000000..e5466b642e87
 --- /dev/null
 +++ b/WHENCE.ubuntu
-@@ -0,0 +1,159 @@
+@@ -0,0 +1,151 @@
 +             **********
 +             * WHENCE *
 +             **********
@@ -1095,14 +1085,6 @@ index 000000000000..336a1d7622f5
 +License: Redistributable. See LICENSE.1a98-INTEL-EDK2-2-tplg for details.
 +
 +--------------------------------------------------------------------------
-+
-+Driver: intel-ipu7 - Intel IPU7 (Image Processing Unit 7) driver
-+
-+File: intel/ipu/ipu7_fw.bin
-+
-+Licence: Redistributable. See LICENSE.ivsc for details
-+
-+--------------------------------------------------------------------------
 diff --git a/check_whence.py b/check_whence.py
 index 357c1311cf5a..bdb3aa14b8a1 100755
 --- a/check_whence.py
@@ -1181,10 +1163,10 @@ index 357c1311cf5a..bdb3aa14b8a1 100755
          if stat.S_ISDIR(mode):
              if not (
 diff --git a/copy-firmware.sh b/copy-firmware.sh
-index dd4b9b6f9d6a..5106aea23dc0 100755
+index 6a32127e77cc..0bb82ded11ad 100755
 --- a/copy-firmware.sh
 +++ b/copy-firmware.sh
-@@ -91,7 +91,7 @@ if test -e .git/config; then
+@@ -116,7 +116,7 @@ if test -e .git/config; then
  fi
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols
@@ -1193,7 +1175,7 @@ index dd4b9b6f9d6a..5106aea23dc0 100755
      install -d "$destdir/$(dirname "$f")"
      $verbose "copying/compressing file $f$compext"
      if test "$compress" != "cat" && test "$k" = "RawFile"; then
-@@ -115,7 +115,7 @@ if [ "$num_jobs" -gt 1 ]; then
+@@ -140,7 +140,7 @@ if [ "$num_jobs" -gt 1 ]; then
  fi
  
  # shellcheck disable=SC2162 # file/folder name can include escaped symbols

@@ -43,6 +43,7 @@ install-linux-%:
 	# by dh_compress so compress them all explicitly
 	gzip -9n debian/$(PACKAGE)/usr/share/doc/$(PACKAGE)/licenses/*
 
+	dh_lintian
 	dh_compress
 	dh_fixperms
 	dh_installdeb
@@ -50,14 +51,19 @@ install-linux-%:
 	dh_md5sums
 	dh_builddeb -- -Znone
 
+install-arch:
+
 install-indep: install-linux-firmware
 
-install: install-indep
+install: install-arch install-indep
+
+binary-arch: install-arch
 
 binary-indep: install-indep
 
-binary: binary-indep
+binary: binary-arch binary-indep
 
 # There's nothing to build
 build-indep:
+build-arch:
 build:
