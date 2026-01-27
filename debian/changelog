@@ -1,3 +1,9 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin6) unstable; urgency=medium
+
+  * qcom: add qcs6490 firmware
+
+ -- Chang Yang <yangchang@deepin.org>  Tue, 27 Jan 2026 10:38:00 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin5) unstable; urgency=medium
 
   * rtw88: Add firmware v33.6.0 for RTL8814AE/RTL8814AU
