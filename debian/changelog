@@ -1,3 +1,70 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin7) unstable; urgency=medium
+
+  * Intel IPU7: Update firmware binary for Panther Lake
+  * Intel IPU7: Update product signed firmware binary
+  * Intel IPU7: Add firmware binary files
+  * feat: add SOF firmware v2025.05.1
+  * linux-firmware: Add ISH firmware file for Intel Pather Lake platform
+  * linux-firmware: Update firmware file for Intel Scorpius core
+  * linux-firmware: Update firmware file for Intel Scorpius core
+  * iwlwifi: add Bz/Sc FW for core102-56 release
+  * iwlwifi: Add Hr/Gf firmware for core102-56 release
+  * iwlwifi: update ty/So/Ma firmwares for core102-56 release
+  * iwlwifi: add Bz/Sc FW for core101-82 release
+  * iwlwifi: Add Sc/Gf firmware for core101-82 release
+  * iwlwifi: update ty/So/Ma firmwares for core101-82 release
+  * iwlwifi: update cc/Qu/QuZ firmwares for core101-82 release
+  * iwlwifi: add Sc/Wh FW for core98-181 release
+  * iwlwifi: add Bz/Fm and gl FW for core98-161 release
+  * iwlwifi: update Bz/Hr and Bz/Gf firmwares for core98-161 release
+  * iwlwifi: update ty/So/Ma firmwares for core98-161 release
+  * iwlwifi: update cc/Qu/QuZ firmwares for core98-161 release
+  * iwlwifi: add Bz-HR FW for core90-93 release
+  * intel_vpu: Add firmware for 50xx NPUs and update older ones
+  * intel_vpu: Update NPU firmware *6
+  * Bluetooth: Add symbolic links for Intel Solar JfP2/1 firmware variants
+  * Bluetooth: Add symbolic links for Intel Solar firmware variants
+  * Bluetooth: Add symbolic links for Intel AX201 firmware variants
+  * linux-firmware: Update firmware file for Intel Solar core
+  * linux-firmware: Update firmware file for Intel BlazarIGfP core
+  * linux-firmware: Update firmware file for Intel BlazarI core
+  * linux-firmware: Update firmware file for Intel BlazarU-HrPGfP core
+  * linux-firmware: Update firmware file for Intel BlazarU core
+  * linux-firmware: Update firmware file for Intel BlazarIGfP core
+  * linux-firmware: Update firmware file for Intel BlazarI core
+  * linux-firmware: Update firmware file for Intel BlazarU-HrPGfP core
+  * linux-firmware: Update firmware file for Intel BlazarU core
+  * linux-firmware: Update firmware file for Intel BlazarU core
+  * linux-firmware: Update firmware file for Intel BlazarI core
+  * linux-firmware: Update firmware file for Intel Magnetar core
+  * linux-firmware: Update firmware file for Intel BlazarU core
+  * linux-firmware: Update firmware file for Intel BlazarI core
+  * linux-firmware: Update firmware file for Intel Solar core
+  * linux-firmware: Update firmware file for Intel BlazarU core
+  * linux-firmware: Update firmware file for Intel BlazarI core
+  * Move all iwlwifi top level files to intel/ directory
+  * iwlwifi: add Bz/gl FW for core97-84 release
+  * iwlwifi: update ty/So/Ma firmwares for core97-84 release
+  * iwlwifi: update cc/Qu/QuZ firmwares for core97-84 release
+  * linux-firmware: update firmware for MT7902 BT device
+  * linux-firmware: update firmware for MT7902 WiFi device
+  * linux-firmware: add firmware for mt7987 internal 2.5G ethernet phy
+  * mt76: add firmware for MT7990
+  * xe: Update GUC to v70.58.0 for LNL, BMG, PTL
+  * xe: Add GSC 105.0.2.1301 for PTL
+  * xe: Update GUC to v70.55.3 for BMG, PTL
+  * xe: Update GUC to v70.54.0 for BMG, PTL
+  * xe: Update GUC to v70.53.0 for BMG, LNL, PTL
+  * xe: Update GUC to v70.49.4 for BMG, LNL, PTL
+  * xe: Add fan_control v203.0.0.0 for BMG
+  * xe: First HuC release for Pantherlake
+  * xe: First GuC release for Pantherlake
+  * xe: Update GUC to v70.45.2 for BMG, LNL
+  * xe: Update LNL GSC to v104.0.5.1429
+  * xe: Update GUC to v70.44.1 for BMG and LNL
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Mon, 09 Mar 2026 14:36:14 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin6) unstable; urgency=medium
 
   * qcom: add qcs6490 firmware
