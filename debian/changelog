@@ -1,3 +1,10 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin8) unstable; urgency=medium
+
+  * amdgpu: update firmware to linux-firmware-20250901.git993ff19b
+  * amdtee: update firmware to linux-firmware-20250901.git993ff19b
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Wed, 01 Apr 2026 09:50:05 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin7) unstable; urgency=medium
 
   * Intel IPU7: Update firmware binary for Panther Lake
