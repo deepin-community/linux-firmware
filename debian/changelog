@@ -1,3 +1,12 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin9) unstable; urgency=medium
+
+  * rtl_nic: add firmware rtl8125cp-1 for RTL8125cp
+  * rtl_nic: add firmware rtl9151a-1
+  * rtl_nic: add firmware rtl8125k-1
+  * rtl_nic: add firmware rtl8127a-1 for RTL8127 rev.a.
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Thu, 02 Apr 2026 17:21:14 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin8) unstable; urgency=medium
 
   * amdgpu: update firmware to linux-firmware-20250901.git993ff19b
