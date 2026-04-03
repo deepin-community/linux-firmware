@@ -1,3 +1,52 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin11) unstable; urgency=medium
+  * cirrus: cs35l41: Add support for new HP laptops
+  * cirrus: cs35l41: Add support for new ASUS laptops
+  * cirrus: cs35l41: Add support for ASUS GZ302EAC and add 15.5dB bincfg
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for some ASUS laptops
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for some Lenovo laptops
+  * cirrus: cs35l63: Update firmware for Cirrus Amps for some Dell laptops
+  * cirrus: cs35l63: Fix Cirrus Amp firmware links for some Dell laptops
+  * cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Dell laptops
+  * cirrus: cs35l63: Add firmware for Cirrus CS35L63 for various Dell laptops
+  * cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Dell laptops
+  * cirrus: cs35l41: Add Firmware for ASUS Zenbook Laptop using CS35L41 HDA
+  * cirrus: cs35l56: Add WHENCE links for 17aa233c spkid0 firmware
+  * cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Lenovo laptops
+  * cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Dell laptops
+  * cirrus: cs35l57 cs35l63: Add firmware for Cirrus Amps for some Lenovo laptops
+  * cirrus: cs35l56 cs35l57: Add and update firmware for some Dell laptops
+  * cirrus: cs35l41: Update firmware and tuning for various HP laptops
+  * cirrus: cs35l41: Add support for new HP Clipper laptop
+  * cirrus: cs35l41: Add support for new HP laptops
+  * cirrus: cs35l57: Add firmware for a few Dell products
+  * cirrus: cs42l45: Add firmware for Cirrus Logic CS42L45 SDCA codec
+  * cirrus: cs35l41: Rename various Asus Laptop firmware files to not have Speaker ID
+  * cirrus: cs35l41: Move entries to correct driver section in WHENCE
+  * cirrus: cs35l56: Update firmware for Cirrus Amps for some Lenovo laptops
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for some Lenovo laptops
+  * cirrus: cs35l41: Add Firmware for various ASUS commercial Laptops using CS35L41 HDA
+  * cirrus: cs35l41: Update Firmware for Dell Oasis
+  * cirrus: cs35l56: Add firmware for Cirrus CS35L56 for various Dell laptops
+  * cirrus: cs35l41: Add Firmware for ASUS NUC using CS35L41
+  * cirrus: cs35l41: Fix firmware links for several ASUS laptops
+  * cirrus: cs35l41: Add Firmware for various HP Agusta Laptops using CS35L41 HDA
+  * cirrus: cs35l41: Add Firmware for various ACER Laptops using CS35L41 HDA
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for some Lenovo laptops
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for some ASUS laptops
+  * cirrus: cs35l56: Update firmware for Cirrus Amps for some Lenovo laptops
+  * cirrus: cs35l56: Update firmware for Cirrus Amps for some Dell laptops
+  * cirrus: cs35l56: Correct filenames of SSID 103c8e1b and 103c8e1c
+  * cirrus: cs35l41: Add Firmware for various HP Laptops using CS35L41 HDA
+  * cirrus: Add cs35l56 firmware symlinks for Asus UM5606KA
+ -- Wentao Guan <guanwentao@uniontech.com>  Fri, 03 Apr 2026 17:21:09 +0800
+
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin10) unstable; urgency=medium
+
+  * linux-firmware: update firmware for MT7902 WiFi device
+  * linux-firmware: update firmware for MT7902 BT device
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Fri, 03 Apr 2026 16:12:05 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin9) unstable; urgency=medium
 
   * rtl_nic: add firmware rtl8125cp-1 for RTL8125cp
