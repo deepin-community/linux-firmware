@@ -1,10 +1,3 @@
-linux-firmware (20250310.git9e1370d3-0ubuntu1deepin10) unstable; urgency=medium
-
-  * linux-firmware: update firmware for MT7902 WiFi device
-  * linux-firmware: update firmware for MT7902 BT device
-
- -- Wentao Guan <guanwentao@uniontech.com>  Fri, 03 Apr 2026 16:12:05 +0800
-
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin9) unstable; urgency=medium
 
   * rtl_nic: add firmware rtl8125cp-1 for RTL8125cp
