@@ -1,3 +1,9 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin13) unstable; urgency=medium
+
+  * qcom: qcm6490: Add missing qupv3fw.elf
+
+ -- Chang Yang <yangchang@deepin.org>  Mon, 25 May 2026 13:00:05 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin12) unstable; urgency=medium
 
   * qcom: sc8280xp: Add support for Radxa Dragon Q8B
