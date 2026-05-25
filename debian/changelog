@@ -1,3 +1,9 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin12) unstable; urgency=medium
+
+  * qcom: sc8280xp: Add support for Radxa Dragon Q8B
+
+ -- Chang Yang <yangchang@deepin.org>  Mon, 25 May 2026 11:11:53 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin11) unstable; urgency=medium
   * cirrus: cs35l41: Add support for new HP laptops
   * cirrus: cs35l41: Add support for new ASUS laptops
