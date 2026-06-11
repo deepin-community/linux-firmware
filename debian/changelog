@@ -1,3 +1,9 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin14) unstable; urgency=medium
+
+  * mediatek: mt7922: Upgrade the Bluetooth and WiFi firmware of MT7922
+
+ -- goutongchen <goutongchen@uniontech.com>  Thu, 11 Jun 2026 22:46:21 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin13) unstable; urgency=medium
 
   * qcom: qcm6490: Add missing qupv3fw.elf
