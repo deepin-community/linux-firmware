@@ -1,3 +1,13 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin17) unstable; urgency=medium
+
+  * rtw89: 8922a: update REGD R73-R08, txpwr R46 and element of diag MAC
+  * rtw89: 8922a: update fw to v0.35.80.3
+  * rtw89: 8922a: add regd fw element with version R72-R6
+  * rtw89: 8922a: update BB parameter V49
+  * rtw89: 8922a: update fw to v0.35.80.0
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Tue, 25 Aug 2026 18:25:51 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin16) unstable; urgency=medium
 
   * rtl_bt: Upgraded the `rtl_bt/rtl8852bu_fw.bin` firmware to version `0x127c_fd78`
