@@ -9591,46 +9591,120 @@ License: Redistributable. See LICENSE.intel_vpu for details
 Driver: sof - Intel Sound Open Firmware
 
 File: intel/sof-ipc4-lib/lnl/community/drc.llext
+File: intel/sof-ipc4-lib/lnl/community/tester.llext
 File: intel/sof-ipc4-lib/lnl/intel-signed/drc.llext
+File: intel/sof-ipc4-lib/mtl/community/google_rtc_audio_processing.llext
+File: intel/sof-ipc4-lib/mtl/community/tester.llext
+File: intel/sof-ipc4-lib/nvl-s/community/google_rtc_audio_processing.llext
+File: intel/sof-ipc4-lib/nvl/community/google_rtc_audio_processing.llext
+File: intel/sof-ipc4-lib/ptl/community/google_rtc_audio_processing.llext
+File: intel/sof-ipc4-lib/ptl/community/tester.llext
+File: intel/sof-ipc4-lib/wcl/community/google_rtc_audio_processing.llext
+File: intel/sof-ipc4-lib/wcl/community/tester.llext
 File: intel/sof-ipc4-tplg/sof-adl-cs42l43-l0-cs35l56-l23.tplg
 File: intel/sof-ipc4-tplg/sof-adl-rt711-4ch.tplg
 File: intel/sof-ipc4-tplg/sof-adl-rt711-l0-rt1308-l12-rt715-l3.tplg
 File: intel/sof-ipc4-tplg/sof-adl-rt711-l0-rt1316-l12-rt714-l3.tplg
 File: intel/sof-ipc4-tplg/sof-adl-rt711-l0-rt1316-l13-rt714-l2.tplg
+File: intel/sof-ipc4-tplg/sof-arl-cs42l43-l0-cs35l56-l2-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-arl-cs42l43-l0-cs35l56-l2.tplg
 File: intel/sof-ipc4-tplg/sof-arl-cs42l43-l0-cs35l56-l23.tplg
 File: intel/sof-ipc4-tplg/sof-arl-cs42l43-l0.tplg
+File: intel/sof-ipc4-tplg/sof-arl-cs42l43-l2-cs35l56-l3-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-arl-cs42l43-l2-cs35l56-l3.tplg
 File: intel/sof-ipc4-tplg/sof-arl-cs42l43-l2.tplg
+File: intel/sof-ipc4-tplg/sof-arl-dmic-2ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-arl-dmic-2ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-arl-dmic-2ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-arl-dmic-2ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-arl-dmic-4ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-arl-dmic-4ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-arl-dmic-4ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-arl-dmic-4ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-arl-rt711-l0-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-arl-rt711-l0-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-arl-rt711-l0-rt1316-l3-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-arl-rt711-l0-rt1316-l3-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-arl-rt711-l0-rt1316-l3.tplg
+File: intel/sof-ipc4-tplg/sof-arl-rt711-l0.tplg
 File: intel/sof-ipc4-tplg/sof-arl-rt722-l0_rt1320-l2.tplg
+File: intel/sof-ipc4-tplg/sof-dmic-4ch-wov.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-1ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-2ch-dax.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-ace1-1ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-ace1-2ch-dax.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-ace1-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-ace1-4ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-ace1-idisp-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-ace1-idisp-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-ace3-1ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-ace3-2ch-dax.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-ace3-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-ace3-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-ace3-idisp-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-ace3-idisp-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-cavs25-1ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-cavs25-2ch-dax.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-cavs25-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-cavs25-4ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-cavs25-idisp-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-cavs25-idisp-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-compr.tplg
+File: intel/sof-ipc4-tplg/sof-hda-generic-dax.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-idisp-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-idisp-4ch.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic-idisp.tplg
 File: intel/sof-ipc4-tplg/sof-hda-generic.tplg
+File: intel/sof-ipc4-tplg/sof-hdmi-pcm5-id2.tplg
+File: intel/sof-ipc4-tplg/sof-hdmi-pcm5-id3.tplg
+File: intel/sof-ipc4-tplg/sof-hdmi-pcm5-id4.tplg
+File: intel/sof-ipc4-tplg/sof-hdmi-pcm5-id5.tplg
+File: intel/sof-ipc4-tplg/sof-hdmi-pcm5-id6.tplg
+File: intel/sof-ipc4-tplg/sof-hdmi-pcm5-id7.tplg
 File: intel/sof-ipc4-tplg/sof-imx8mp-wm8960.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l23-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l23-4ch.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l23.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l3-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0-cs35l56-l3.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l0.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-cs42l43-l2-cs35l56x6-l13.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-dmic-2ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-dmic-2ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-dmic-2ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-dmic-2ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-dmic-4ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-dmic-4ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-dmic-4ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-dmic-4ch-id5.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-rt1318-l12-rt714-l0.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-rt1320-l12-rt714-l0.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-rt711-4ch.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-rt711-l0-rt1316-l23-rt714-l1.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-rt712-l2-rt1320-l1.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-rt712-l2-rt1712-l3.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-rt713-l0-rt1318-l1-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-rt713-l0-rt1318-l1.tplg
+File: intel/sof-ipc4-tplg/sof-lnl-rt713-l2-rt1320-l13.tplg
 File: intel/sof-ipc4-tplg/sof-lnl-rt722-l0.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-cs35l56-l01-fb6.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-cs35l56-l01-fb8.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0-cs35l56-l12.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0-cs35l56-l23.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-cs42l43-l0.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-cs42l43-l3-cs35l56-l01-spkagg.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-dmic-2ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-dmic-2ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-dmic-2ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-dmic-2ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-dmic-4ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-dmic-4ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-dmic-4ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-dmic-4ch-id5.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-es83x6-ssp1-hdmi-ssp02.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-es83x6-ssp1.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-hdmi-ssp02.tplg
@@ -9640,11 +9714,13 @@ File: intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0-2ch-pdm1.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0-google-aec.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682-ssp2-ssp0.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-max98357a-rt5682.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-max98360a-rt5682.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt1019-rt5682.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt1318-l12-rt714-l0.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt5650-dts-google-aec.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt5650-dts.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt5650.tplg
+File: intel/sof-ipc4-tplg/sof-mtl-rt711-2ch.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt711-4ch.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt711-l0-rt1316-l23-rt714-l1.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt711-l0-rt1316-l3-2ch.tplg
@@ -9661,14 +9737,117 @@ File: intel/sof-ipc4-tplg/sof-mtl-rt713-l0-rt1318-l1-rt1713-l3.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt713-l0-rt1318-l12-rt1713-l3.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-rt722-l0.tplg
 File: intel/sof-ipc4-tplg/sof-mtl-sdw-cs42l42-l0-max98363-l2.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-dmic-2ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-dmic-2ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-dmic-2ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-dmic-2ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-dmic-4ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-dmic-4ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-dmic-4ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-dmic-4ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt711-rt1308-mono-rt715.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt711-rt1308-rt715.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt712-l3-rt1320-l3-4ch-ssp2-bt.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt715-rt711-rt1308-mono.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt721-4ch-96k.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt721-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt722-192k.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt722-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt722-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt722-96k.tplg
+File: intel/sof-ipc4-tplg/sof-nvl-rt722.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-cs42l43-agg-l3-cs35l56-l2-4ch-ctc.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-cs42l43-agg-l3-cs35l56-l2-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-cs42l43-agg-l3-cs35l56-l2-ctc.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-cs42l43-agg-l3-cs35l56-l2-dax-ctc.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-cs42l43-agg-l3-cs35l56-l2-dax.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-cs42l43-agg-l3-cs35l56-l2.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-cs42l43-l2-cs35l56x6-l13.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-dmic-2ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-dmic-2ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-dmic-2ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-dmic-2ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-dmic-4ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-dmic-4ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-dmic-4ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-dmic-4ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-es8336-ssp1.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-es83x6-ssp1-hdmi-ssp02.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-hdmi-ssp02.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt711-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt711-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt711-rt1308-mono-rt715.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt711-rt1308-rt715.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt711.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt712-l2-rt1320-l1.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt712-l3-rt1320-l2.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt712-l3-rt1320-l3-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt712-l3-rt1320-l3-ctc.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt712-l3-rt1320-l3.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt713-l2-rt1320-l13.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt713-l3-rt1320-l1-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt713-l3-rt1320-l12.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt715-rt711-rt1308-mono.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt721-4ch-96k.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt721-4ch-dmic1-96k.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt721-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt721-l3-rt1320-l3-4ch-ssp2-bt-dts-ctc.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt721-l3-rt1320-l3-4ch-ssp2-bt-dts.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt721-l3-rt1320-l3-4ch-ssp2-bt.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt721.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt722-192k.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt722-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt722-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt722-96k.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt722-l0-rt1320-l23-2ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt722-l0-rt1320-l23-4ch.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-rt722-l0-rt1320-l23.tplg
 File: intel/sof-ipc4-tplg/sof-ptl-rt722.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-ssp1-jack-id0.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-ssp2-bt-id10.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-ssp2-bt-id2.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-ssp2-bt-id8.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-ssp5-hdmiin-id1.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-ssp5-hdmiin-id2.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-ssp5-hdmiin-id7.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-tas2563-rt5682-ctc.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-tas2563-rt5682-dax-ctc.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-tas2563-rt5682-dax.tplg
+File: intel/sof-ipc4-tplg/sof-ptl-tas2563-rt5682.tplg
 File: intel/sof-ipc4-tplg/sof-rpl-cs42l43-l0.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-1amp-id2.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-2amp-feedback-id3-xover.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-2amp-id2-xover.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-2amp-id2.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-3amp-id2.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-4amp-id2.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-amp-ref-dai.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-amp-ref.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-jack-id0.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-jack-ref-dai.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-mic-4ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-sdca-mic-id4.tplg
+File: intel/sof-ipc4-tplg/sof-sdw-generic.tplg
+File: intel/sof-ipc4-tplg/sof-tgl-cs35l56-l01-fb8.tplg
 File: intel/sof-ipc4-tplg/sof-tgl-cs42l43-l3-cs35l56-l01.tplg
 File: intel/sof-ipc4-tplg/sof-tgl-rt711-rt1308-4ch.tplg
 File: intel/sof-ipc4-tplg/sof-tgl-rt711-rt1308-rt715.tplg
 File: intel/sof-ipc4-tplg/sof-tgl-rt711-rt1316-rt714.tplg
 File: intel/sof-ipc4-tplg/sof-tgl-rt712.tplg
 File: intel/sof-ipc4-tplg/sof-tgl-rt715-rt711-rt1308-mono.tplg
+File: intel/sof-ipc4-tplg/sof-uaol-id10.tplg
+File: intel/sof-ipc4-tplg/sof-uaol-id6.tplg
+File: intel/sof-ipc4-tplg/sof-uaol-id7.tplg
+File: intel/sof-ipc4-tplg/sof-uaol-id8.tplg
+File: intel/sof-ipc4-tplg/sof-uaol-id9.tplg
+File: intel/sof-ipc4-tplg/sof-wcl-dmic-2ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-wcl-dmic-2ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-wcl-dmic-2ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-wcl-dmic-2ch-id5.tplg
+File: intel/sof-ipc4-tplg/sof-wcl-dmic-4ch-id2.tplg
+File: intel/sof-ipc4-tplg/sof-wcl-dmic-4ch-id3.tplg
+File: intel/sof-ipc4-tplg/sof-wcl-dmic-4ch-id4.tplg
+File: intel/sof-ipc4-tplg/sof-wcl-dmic-4ch-id5.tplg
 File: intel/sof-ipc4/adl-n/intel-signed/sof-adl-n.ri
 File: intel/sof-ipc4/adl-s/intel-signed/sof-adl-s.ri
 File: intel/sof-ipc4/adl/intel-signed/sof-adl.ri
@@ -9677,12 +9856,28 @@ File: intel/sof-ipc4/lnl/community/sof-lnl.ri
 File: intel/sof-ipc4/lnl/intel-signed/sof-lnl.ri
 File: intel/sof-ipc4/mtl/community/sof-mtl.ri
 File: intel/sof-ipc4/mtl/intel-signed/sof-mtl.ri
+File: intel/sof-ipc4/nvl-s/community/sof-nvl-s-openmodules.ri
+File: intel/sof-ipc4/nvl-s/community/sof-nvl-s.ri
+File: intel/sof-ipc4/nvl-s/intel-signed/sof-nvl-s-openmodules.ri
+File: intel/sof-ipc4/nvl-s/intel-signed/sof-nvl-s.ri
+File: intel/sof-ipc4/nvl/community/sof-nvl-openmodules.ri
+File: intel/sof-ipc4/nvl/community/sof-nvl.ri
+File: intel/sof-ipc4/nvl/intel-signed/sof-nvl-openmodules.ri
+File: intel/sof-ipc4/nvl/intel-signed/sof-nvl.ri
+File: intel/sof-ipc4/ptl/community/sof-ptl-openmodules.ri
+File: intel/sof-ipc4/ptl/community/sof-ptl.ri
+File: intel/sof-ipc4/ptl/intel-signed/sof-ptl-openmodules.ri
+File: intel/sof-ipc4/ptl/intel-signed/sof-ptl.ri
 File: intel/sof-ipc4/rpl-s/intel-signed/sof-rpl-s.ri
 File: intel/sof-ipc4/rpl/intel-signed/sof-rpl.ri
 File: intel/sof-ipc4/tgl-h/community/sof-tgl-h.ri
 File: intel/sof-ipc4/tgl-h/intel-signed/sof-tgl-h.ri
 File: intel/sof-ipc4/tgl/community/sof-tgl.ri
 File: intel/sof-ipc4/tgl/intel-signed/sof-tgl.ri
+File: intel/sof-ipc4/wcl/community/sof-wcl-openmodules.ri
+File: intel/sof-ipc4/wcl/community/sof-wcl.ri
+File: intel/sof-ipc4/wcl/intel-signed/sof-wcl-openmodules.ri
+File: intel/sof-ipc4/wcl/intel-signed/sof-wcl.ri
 File: intel/sof-tplg/sof-acp.tplg
 File: intel/sof-tplg/sof-adl-cs35l41.tplg
 File: intel/sof-tplg/sof-adl-es8336-dmic2ch-ssp0.tplg
@@ -9724,6 +9919,7 @@ File: intel/sof-tplg/sof-adl-nocodec.tplg
 File: intel/sof-tplg/sof-adl-rt1015-nau8825.tplg
 File: intel/sof-tplg/sof-adl-rt1019-nau8825.tplg
 File: intel/sof-tplg/sof-adl-rt1019-rt5682.tplg
+File: intel/sof-tplg/sof-adl-rt1316-l02-4ch.tplg
 File: intel/sof-tplg/sof-adl-rt1316-l1-mono-rt714-l0.tplg
 File: intel/sof-tplg/sof-adl-rt1316-l12-rt714-l0.tplg
 File: intel/sof-tplg/sof-adl-rt1316-l2-mono-rt714-l0.tplg
@@ -9799,6 +9995,7 @@ File: intel/sof-tplg/sof-cht-rt5640.tplg
 File: intel/sof-tplg/sof-cht-rt5645.tplg
 File: intel/sof-tplg/sof-cht-rt5651.tplg
 File: intel/sof-tplg/sof-cht-rt5670.tplg
+File: intel/sof-tplg/sof-cht-rt5677.tplg
 File: intel/sof-tplg/sof-cht-rt5682.tplg
 File: intel/sof-tplg/sof-cml-da7219-max98357a.tplg
 File: intel/sof-tplg/sof-cml-da7219-max98390.tplg
@@ -10006,8 +10203,17 @@ File: intel/sof/sof-tgl-h.ldc
 File: intel/sof/sof-tgl.ldc
 Link: intel/sof-ace-tplg -> sof-ipc4-tplg
 Link: intel/sof-ipc4-lib/lnl/B36EE4DA-006F-47F9-A06D-FECBE2D8B6CE.bin -> intel-signed/B36EE4DA-006F-47F9-A06D-FECBE2D8B6CE.bin
+Link: intel/sof-ipc4-lib/lnl/community/08AEB4FF-7F68-4C71-86C3-C842B4262898.bin -> tester.llext
 Link: intel/sof-ipc4-lib/lnl/community/B36EE4DA-006F-47F9-A06D-FECBE2D8B6CE.bin -> drc.llext
 Link: intel/sof-ipc4-lib/lnl/intel-signed/B36EE4DA-006F-47F9-A06D-FECBE2D8B6CE.bin -> drc.llext
+Link: intel/sof-ipc4-lib/mtl/community/08AEB4FF-7F68-4C71-86C3-C842B4262898.bin -> tester.llext
+Link: intel/sof-ipc4-lib/mtl/community/B780A0A6-269F-466F-B477-23DFA05AF758.bin -> google_rtc_audio_processing.llext
+Link: intel/sof-ipc4-lib/nvl-s/community/B780A0A6-269F-466F-B477-23DFA05AF758.bin -> google_rtc_audio_processing.llext
+Link: intel/sof-ipc4-lib/nvl/community/B780A0A6-269F-466F-B477-23DFA05AF758.bin -> google_rtc_audio_processing.llext
+Link: intel/sof-ipc4-lib/ptl/community/08AEB4FF-7F68-4C71-86C3-C842B4262898.bin -> tester.llext
+Link: intel/sof-ipc4-lib/ptl/community/B780A0A6-269F-466F-B477-23DFA05AF758.bin -> google_rtc_audio_processing.llext
+Link: intel/sof-ipc4-lib/wcl/community/08AEB4FF-7F68-4C71-86C3-C842B4262898.bin -> tester.llext
+Link: intel/sof-ipc4-lib/wcl/community/B780A0A6-269F-466F-B477-23DFA05AF758.bin -> google_rtc_audio_processing.llext
 Link: intel/sof-ipc4/adl-n/community/sof-adl-n.ri -> ../../tgl/community/sof-tgl.ri
 Link: intel/sof-ipc4/adl-n/sof-adl-n.ri -> intel-signed/sof-adl-n.ri
 Link: intel/sof-ipc4/adl-s/community/sof-adl-s.ri -> ../../tgl-h/community/sof-tgl-h.ri
@@ -10022,12 +10228,20 @@ Link: intel/sof-ipc4/arl/sof-arl.ri -> intel-signed/sof-arl.ri
 Link: intel/sof-ipc4/ehl/community/sof-ehl.ri -> ../../tgl/community/sof-tgl.ri
 Link: intel/sof-ipc4/lnl/sof-lnl.ri -> intel-signed/sof-lnl.ri
 Link: intel/sof-ipc4/mtl/sof-mtl.ri -> intel-signed/sof-mtl.ri
+Link: intel/sof-ipc4/nvl-s/sof-nvl-s-openmodules.ri -> intel-signed/sof-nvl-s-openmodules.ri
+Link: intel/sof-ipc4/nvl-s/sof-nvl-s.ri -> intel-signed/sof-nvl-s.ri
+Link: intel/sof-ipc4/nvl/sof-nvl-openmodules.ri -> intel-signed/sof-nvl-openmodules.ri
+Link: intel/sof-ipc4/nvl/sof-nvl.ri -> intel-signed/sof-nvl.ri
+Link: intel/sof-ipc4/ptl/sof-ptl-openmodules.ri -> intel-signed/sof-ptl-openmodules.ri
+Link: intel/sof-ipc4/ptl/sof-ptl.ri -> intel-signed/sof-ptl.ri
 Link: intel/sof-ipc4/rpl-s/community/sof-rpl-s.ri -> ../../tgl-h/community/sof-tgl-h.ri
 Link: intel/sof-ipc4/rpl-s/sof-rpl-s.ri -> intel-signed/sof-rpl-s.ri
 Link: intel/sof-ipc4/rpl/community/sof-rpl.ri -> ../../tgl/community/sof-tgl.ri
 Link: intel/sof-ipc4/rpl/sof-rpl.ri -> intel-signed/sof-rpl.ri
 Link: intel/sof-ipc4/tgl-h/sof-tgl-h.ri -> intel-signed/sof-tgl-h.ri
 Link: intel/sof-ipc4/tgl/sof-tgl.ri -> intel-signed/sof-tgl.ri
+Link: intel/sof-ipc4/wcl/sof-wcl-openmodules.ri -> intel-signed/sof-wcl-openmodules.ri
+Link: intel/sof-ipc4/wcl/sof-wcl.ri -> intel-signed/sof-wcl.ri
 Link: intel/sof/community/sof-adl-n.ri -> sof-tgl.ri
 Link: intel/sof/community/sof-adl-s.ri -> sof-tgl-h.ri
 Link: intel/sof/community/sof-adl.ri -> sof-tgl.ri
