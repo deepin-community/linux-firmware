@@ -1,3 +1,19 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin19) unstable; urgency=medium
+
+  * iwlwifi: update Intel wireless firmware
+    - add Bz/Wh firmware for the core102-56 release
+    - update Bz/Sc, Hr/Gf, ty/So/Ma and cc/Qu/QuZ for the core103-40,
+      core24.60-33, core24.70-49 and core24.80-41 releases
+    - 20 new firmware files and 22 updated ones
+  * Intel Bluetooth: update the ibt firmware files
+    - update the Scorpius, ScorpiusGfp2, BlazarI, BlazarIGfp2, BlazarU,
+      BlazarIW, Solar, Pulsar, Magnetar and Quasar core firmware
+    - add the ibt-1190-0041/01a1 (BlazarIW for WCL) and ibt-00a0-0041 files
+    - convert the redundant Pulsar (ibt-17-1/2, ibt-18-1/2) variants to symlinks
+    - drop the obsolete ibt-00a0-*-usb and ibt-0190-0041 firmware files
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Wed, 14 Oct 2026 15:12:00 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin18) unstable; urgency=medium
 
   * feat: add SOF firmware v2026.09.2
