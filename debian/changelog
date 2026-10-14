@@ -1,3 +1,14 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin18) unstable; urgency=medium
+
+  * feat: add SOF firmware v2026.09.2
+    - add Intel SOF IPC4 firmware for the NVL, NVL-S and WCL platforms
+    - update LNL/MTL/PTL/ARL-S IPC4 firmware and the SOF base FW libraries
+    - add 118 new IPC4 topologies (ARL/LNL/MTL/NVL/PTL/WCL, SDCA, UAOL)
+    - add the missing intel/sof-tplg/sof-cht-rt5677.tplg topology
+    - WHENCE: add the new SOF firmware files and links
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Wed, 14 Oct 2026 11:42:17 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin17) unstable; urgency=medium
 
   * rtw89: 8922a: update REGD R73-R08, txpwr R46 and element of diag MAC
