@@ -1,3 +1,9 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin22) unstable; urgency=medium
+
+  * aic8800: add AIC8800M80X2P PCIe Wi-Fi/BT firmware
+
+ -- liliu <liliu@aicsemi.com>  Wed, 18 Nov 2026 09:22:00 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin21) unstable; urgency=medium
 
   * cirrus: cs35l56: Add firmware for Cirrus Amps for some Lenovo laptops (17aa235c 17aa235d)

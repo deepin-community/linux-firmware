@@ -10721,3 +10721,30 @@ Link: intel/sof/sof-rpl.ldc -> sof-tgl.ldc
 Link: intel/sof/sof-rpl.ri -> intel-signed/sof-rpl.ri
 Link: intel/sof/sof-tgl-h.ri -> intel-signed/sof-tgl-h.ri
 Link: intel/sof/sof-tgl.ri -> intel-signed/sof-tgl.ri
+
+--------------------------------------------------------------------------
+
+Driver: aic8800_fdrv_m80x2p - AICSemi AIC8800M80X2P PCIe Wi-Fi/Bluetooth driver
+
+RawFile: aic8800D80X2/fmacfw_8800D80X2_pcie.bin
+RawFile: aic8800D80X2/fmacfwbt_8800D80X2_pcie.bin
+RawFile: aic8800D80X2/lmacfw_rf_8800D80X2_pcie.bin
+RawFile: aic8800D80X2/fw_flsupg_m80x2p.bin
+RawFile: aic8800D80X2/fw_flsgen1_m80x2p.bin
+RawFile: aic8800D80X2/fw_flsgen2_m80x2p.bin
+RawFile: aic8800D80X2/fw_adid_8800d80x2_u05.bin
+RawFile: aic8800D80X2/fw_patch_8800d80x2_u05.bin
+RawFile: aic8800D80X2/fw_patch_8800d80x2_u05_ext0.bin
+RawFile: aic8800D80X2/fw_patch_8800d80x2_u05_ext1.bin
+RawFile: aic8800D80X2/fw_patch_table_8800d80x2_u05.bin
+RawFile: aic8800D80X2/aic_userconfig_8800d80x2.txt
+RawFile: aic8800D80X2/aic_powerlimit_8800d80x2.txt
+RawFile: aic8800D80X2/aicbt.conf
+
+Licence: Redistributable.
+
+  Copyright (c) AIC Semiconductor (Shanghai) Co., Ltd.
+
+  The driver reads these files directly from /lib/firmware/aic8800D80X2/
+  instead of through request_firmware(), so they are installed
+  uncompressed (RawFile).
