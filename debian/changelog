@@ -1,12 +1,34 @@
+linux-firmware (20250310.git9e1370d3-0ubuntu1deepin21) unstable; urgency=medium
+
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for some Lenovo laptops (17aa235c 17aa235d)
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for some Lenovo laptops
+  * cirrus: cs35l56: Update firmware for Cirrus Amps for some Dell laptops
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for some Lenovo laptops
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for a Lenovo laptop
+  * cirrus: cs35l56: Update firmware for Cirrus Amps for a couple of Lenovo laptops
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for a Dell laptop
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for a few Dell laptops
+  * cirrus: cs35l56: Update firmware for the ASUS UX5406SA
+  * cirrus: cs35l57: Add firmware for Cirrus Amps for some Samsung laptops
+  * cirrus: cs35l56: Add Cirrus CS35L56 firmware mappings for some Dell laptops
+  * cirrus: cs35l56: Add firmware for Cirrus Amps for an ASUS laptop
+  * cirrus: cs35l54: Add Cirrus CS35L54 firmware mappings for an HP laptop
+  * cirrus: cs35l56: Update firmware for Cirrus Amps for some HP laptops
+  * cirrus: cs35l57: Add firmware for Cirrus Amps for a Lenovo laptop
+  * cirrus: cs35l56: Correct firmware instances for 103c8c52 and 103c8c53
+  * cirrus: cs35l57 cs35l63: Add firmware for some Dell laptops
+  * cirrus: cs35l63: Add firmware for Cirrus CS35L63 for various Dell laptops
+
+ -- Wentao Guan <guanwentao@uniontech.com>  Mon, 02 Nov 2026 14:14:34 +0800
+
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin20) unstable; urgency=medium
 
-  * cirrus: cs35l41: add firmware for new laptops
-    - add firmware for the Lenovo ThinkBook 17AA3845/17AA3846
-    - add firmware for the Lenovo Yoga Slim 7 Carbon 14ACN6 (17AA3856)
-    - add the ASUS Zenbook UM3405GA (104319F4) firmware links
-    - add the Thinkbook 16P Gen6 (17AA3921) firmware links
+  * cirrus: cs35l41: Add support for Lenovo Yoga Slim 7 Carbon 14ACN6
+  * cirrus: cs35l41: Add firmware and tuning for Lenovo Thinkbook laptops
+  * cirrus: cs35l41: Add Firmware for ASUS Zenbook Laptop using CS35L41 HDA
+  * cs35l56: Add non-spkid firmware names for Thinkbook 16P Gen6 (17AA3921)
 
- -- Wentao Guan <guanwentao@uniontech.com>  Mon, 1 Nov 2026 14:01:00 +0800
+ -- Wentao Guan <guanwentao@uniontech.com>  Sun, 01 Nov 2026 14:01:00 +0800
 
 linux-firmware (20250310.git9e1370d3-0ubuntu1deepin19) unstable; urgency=medium
 
